@@ -19,7 +19,7 @@ TGD Navigator is the most advanced co-driver application for PC driving simulato
 
 3. Go to https://github.com/TGDSimware/TGDNavigatorContents (this page)
 
-4. If you want to contribute to the project as a content provider send a "fork request" to the author. Once your fork request has been accepted, you can start using GitHub Destop to add files, propose modifications, and so on...
+4. If you want to contribute to the project as a content provider send a "fork request" to the author. Once your fork request has been accepted, you can start use GitHub Desktop to add files, propose modifications, and so on...
 
 <h2>DONATIONS</h2>
 
