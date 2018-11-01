@@ -15,9 +15,9 @@ TGD Navigator is the most advanced co-driver application for PC driving simulato
 
 1. To contribute to a GitHub project you will need a GitHub account. Go www.github.com and register yourself by creating an account.
 
-2. Go to https://github.com/TGDSimware/TGDNavigatorContents (this page)
+2. Download and install github Desktop from https://desktop.github.com/
 
-3. Download and install github Desktop from https://desktop.github.com/
+3. Go to https://github.com/TGDSimware/TGDNavigatorContents (this page)
 
 4. If you want to contribute to the project as a content provider send a "fork request" to the author. Once your fork request has been accepted, you can start using GitHub Destop to add files, propose modifications, and so on...
 
