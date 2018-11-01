@@ -9,7 +9,7 @@ TGD Navigator is the most advanced co-driver application for PC driving simulato
 
 1. Go to https://github.com/TGDSimware/TGDNavigatorContents (this page)
 
-3. Download or clone the repository use the "Clone or download button". Cloning requires GitHub Desktop, otherwise you can download the whole project as a .ZIP file
+3. Download or clone the repository by using the "Clone or download button". Cloning requires GitHub Desktop, otherwise you can download the whole project as a .ZIP file
 
 <h2>HOW CAN I CONTRIBUTE TO THIS PROJECT?</h2>
 
