@@ -23,4 +23,4 @@ TGD Navigator is the most advanced co-driver application for PC driving simulato
 
 <h2>DONATIONS</h2>
 
-You can support this project by donating via Paypal at paypal.me/tgdsimware
+You can support this project by donating via Paypal at https://paypal.me/tgdsimware
