@@ -1,0 +1,6 @@
+HOW TO INSTALL
+--------------
+
+Copy the project folder into the following directory:
+
+<Your Documents Folder>\Navigator Builder\My Navigators

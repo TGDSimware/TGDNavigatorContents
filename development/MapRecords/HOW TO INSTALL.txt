@@ -1,0 +1,6 @@
+HOW TO INSTALL
+--------------
+
+Copy the Map record file into the following directory:
+
+C:\Program Files (x86)\SimHub\PluginsData\<Game Name>\MapRecords

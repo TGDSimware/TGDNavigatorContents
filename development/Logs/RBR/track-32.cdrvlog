@@ -1,0 +1,6048 @@
+{
+  "_callPointOffset": 0,
+  "_lock": {},
+  "SwVersion": "2.9.0.0",
+  "Game": "RBR",
+  "TrackCode": "32",
+  "Author": null,
+  "VersionMajor": 0,
+  "VersionMinor": 0,
+  "Notes": null,
+  "TurnDetail": 2,
+  "Track": "Greenhills",
+  "DateRecorded": "2018-07-10T23:49:35.1865562+02:00",
+  "InitialDistance": 70.340278625488281,
+  "SuddenlyCallDistance": 5,
+  "IntoCallDistance": 20,
+  "ForCallDistance": 70,
+  "AndCallDistance": 90,
+  "LookAhead": 3,
+  "LookAheadDistanceMax": 100,
+  "MinDistanceToCall": 91,
+  "KinksDistance": 250,
+  "Style": 1,
+  "OpenTightensStyle": 0,
+  "DistancesRounding": 0,
+  "TargetAdvance": 2.0,
+  "CallPointOffset": 0,
+  "NumberOfLaps": 1,
+  "DelayBeforeCountdown": 6802,
+  "StartSyncOffset": -1,
+  "ShortTurn": 20,
+  "LongTurn": 105,
+  "VeryLongTurn": 180,
+  "ExtraLongTurn": 270,
+  "TightHairpinAngle": 35,
+  "OpenHairpinAngle": 70,
+  "AutoChicanes": false,
+  "AutoUpAndDownhills": false,
+  "AutoCautions": true,
+  "MergeDoubles": true,
+  "RemoveSlides": true,
+  "RemoveSuperfluous": true,
+  "AddDistanceNotes": true,
+  "DistanceSystem": 0,
+  "CountdownOption": 2,
+  "Check1Distance": 2041.7063624062087,
+  "Check2Distance": 4083.4127248124173,
+  "FirstKnownPosition": [
+    -106.44455718994141,
+    9.2866535186767578,
+    38.808570861816406
+  ],
+  "TrackLength": 6125.1190872192383,
+  "DifficultyScale": "European (1-6)",
+  "ScaleExprDifficulty": "-4.108839 + 0.1091936*[A] - 0.0007984105*[A]*[A] + 0.000002873901*[A]*[A]*[A]",
+  "ScaleEasiest": 6,
+  "ScaleHardest": 1,
+  "ScaleUsePlusMinus": true,
+  "DirectionFirst": true,
+  "ACUseClutchAsStarter": true,
+  "UseSlights": true,
+  "UseHairpins": true,
+  "UseSquares": true,
+  "ExprAngle": "280.0681 + (45.84196 - 280.0681)/(1 + Pow([D]/4.925494, 1.10494))",
+  "PaceNotes": [
+    {
+      "Prg": 1,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 81.521728823725041,
+      "Radius2": 127.89947971987765,
+      "Angle1": 162.68181679551614,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": -0.01,
+      "ComboLength": 224,
+      "EntryPoint": [
+        -106.44455718994141,
+        9.2866535186767578,
+        38.808570861816406
+      ],
+      "ExitPoint": [
+        -151.97201538085938,
+        9.3145313262939453,
+        -32.931369781494141
+      ],
+      "DetectedLength": 81,
+      "Start": 0,
+      "StartMax": -1,
+      "DetectedHint": 3,
+      "DistanceBefore": 0,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "D5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "tieni int.",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Keep",
+              "Value": "tieni",
+              "Category": 5,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Inside",
+              "Value": "int.",
+              "Category": 0,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "150",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "D5",
+        "tieni int.",
+        "150"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 2,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 0.08,
+      "ComboLength": 142,
+      "EntryPoint": [
+        -151.97201538085938,
+        9.3145313262939453,
+        -32.931369781494141
+      ],
+      "ExitPoint": [
+        -120.69574737548828,
+        9.4893379211425781,
+        -154.63116455078125
+      ],
+      "DetectedLength": 142,
+      "Start": 82,
+      "StartMax": -1,
+      "DetectedHint": null,
+      "DistanceBefore": -56,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "150"
+    },
+    {
+      "Prg": 3,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 52.118057044005774,
+      "Radius2": 30.15265903653281,
+      "Angle1": 152.0,
+      "Angle2": 133.0,
+      "Level1": "4",
+      "Level2": "3",
+      "Slope": -2.6,
+      "ComboLength": 127,
+      "EntryPoint": [
+        -120.69574737548828,
+        9.4893379211425781,
+        -154.63116455078125
+      ],
+      "ExitPoint": [
+        -120.69574737548828,
+        9.4893379211425781,
+        -154.63116455078125
+      ],
+      "DetectedLength": 100,
+      "Start": 223,
+      "StartMax": 350,
+      "DetectedHint": 4,
+      "DistanceBefore": -125,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "S4 > 3",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "S4",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "> 3",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "! buca int.",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "S4 > 3",
+        "! buca int."
+      ],
+      "Level": "4>3"
+    },
+    {
+      "Prg": 4,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 14,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 0.0,
+      "Angle2": 0.0,
+      "Level1": null,
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 26,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 26,
+      "Start": 324,
+      "StartMax": 350,
+      "DetectedHint": null,
+      "DistanceBefore": -73,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "! buca int.",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Caution",
+              "Value": "!",
+              "Category": 4,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": null,
+              "Value": "buca int.",
+              "Category": 9,
+              "IsPrefixed": true,
+              "Components": [
+                {
+                  "Name": "Hole",
+                  "Value": "buca",
+                  "Category": 6,
+                  "IsPrefixed": true,
+                  "Components": null,
+                  "Origin": 2
+                },
+                {
+                  "Name": "Inside",
+                  "Value": "int.",
+                  "Category": 0,
+                  "IsPrefixed": true,
+                  "Components": null,
+                  "Origin": 2
+                }
+              ],
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "! buca int."
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 5,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 19.232882011531128,
+      "Radius2": 0.0,
+      "Angle1": 106.55983654812803,
+      "Angle2": 0.0,
+      "Level1": "2",
+      "Level2": null,
+      "Slope": -0.53,
+      "ComboLength": 119,
+      "EntryPoint": [
+        -144.63380432128906,
+        5.7940888404846191,
+        -263.91769409179688
+      ],
+      "ExitPoint": [
+        -144.63380432128906,
+        5.7940888404846191,
+        -263.91769409179688
+      ],
+      "DetectedLength": 118,
+      "Start": 350,
+      "StartMax": -1,
+      "DetectedHint": 3,
+      "DistanceBefore": -101,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "D2",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Long",
+          "Value": "L",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Round",
+          "Value": "tonda",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "! sporca",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "D2",
+        "L",
+        "tonda",
+        "! sporca"
+      ],
+      "Level": "2"
+    },
+    {
+      "Prg": 6,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 14,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 0.0,
+      "Angle2": 0.0,
+      "Level1": null,
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 0,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 0,
+      "Start": 469,
+      "StartMax": 469,
+      "DetectedHint": null,
+      "DistanceBefore": -49,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "! sporca",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Caution",
+              "Value": "!",
+              "Category": 4,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": null,
+              "Value": "sporca",
+              "Category": -1,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "! sporca"
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 7,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": -0.23,
+      "ComboLength": 300,
+      "EntryPoint": [
+        -144.63380432128906,
+        5.7940888404846191,
+        -263.91769409179688
+      ],
+      "ExitPoint": [
+        -25.215864181518555,
+        5.32127571105957,
+        -273.38320922851562
+      ],
+      "DetectedLength": 93,
+      "Start": 469,
+      "StartMax": 561,
+      "DetectedHint": null,
+      "DistanceBefore": -30,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "100",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "S5-",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Apex",
+          "Value": "sfiora",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Double",
+          "Value": "2*",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "> 3",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "100",
+        "S5-",
+        "sfiora",
+        "2*",
+        "!",
+        "> 3"
+      ],
+      "Level": "100"
+    },
+    {
+      "Prg": 8,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 65.683949194089209,
+      "Radius2": 60.57667673269323,
+      "Angle1": 158.0,
+      "Angle2": 0.0,
+      "Level1": "5-",
+      "Level2": null,
+      "Slope": -0.84,
+      "ComboLength": 104,
+      "EntryPoint": [
+        -25.215864181518555,
+        5.32127571105957,
+        -273.38320922851562
+      ],
+      "ExitPoint": [
+        101.74217224121094,
+        8.4144468307495117,
+        -356.29522705078125
+      ],
+      "DetectedLength": 104,
+      "Start": 561,
+      "StartMax": 666,
+      "DetectedHint": 4,
+      "DistanceBefore": -129,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Apex",
+          "Value": "sfiora",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": "Double",
+          "Value": "2*",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "sfiora",
+        "2*"
+      ],
+      "Level": "5-"
+    },
+    {
+      "Prg": 9,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 14,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 0.0,
+      "Angle2": 0.0,
+      "Level1": null,
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 0,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 0,
+      "Start": 666,
+      "StartMax": 666,
+      "DetectedHint": null,
+      "DistanceBefore": -75,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "> 3",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Tightens",
+              "Value": ">",
+              "Category": 3,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": null,
+              "Value": "3",
+              "Category": -1,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "!",
+        "> 3"
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 10,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": -1.73,
+      "ComboLength": 175,
+      "EntryPoint": [
+        101.74217224121094,
+        8.4144468307495117,
+        -356.29522705078125
+      ],
+      "ExitPoint": [
+        66.3526611328125,
+        6.1577215194702148,
+        -422.0413818359375
+      ],
+      "DetectedLength": 175,
+      "Start": 666,
+      "StartMax": -1,
+      "DetectedHint": null,
+      "DistanceBefore": -53,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "170",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "170"
+      ],
+      "Level": "170"
+    },
+    {
+      "Prg": 11,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 30.019633451519624,
+      "Radius2": 0.0,
+      "Angle1": 133.57977353680849,
+      "Angle2": 0.0,
+      "Level1": "3",
+      "Level2": null,
+      "Slope": 2.27,
+      "ComboLength": 123,
+      "EntryPoint": [
+        66.3526611328125,
+        6.1577215194702148,
+        -422.0413818359375
+      ],
+      "ExitPoint": [
+        66.3526611328125,
+        6.1577215194702148,
+        -422.0413818359375
+      ],
+      "DetectedLength": 74,
+      "Start": 840,
+      "StartMax": -1,
+      "DetectedHint": 3,
+      "DistanceBefore": -106,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "D3",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Water",
+          "Value": "guado",
+          "Category": 6,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "tieni D",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Tightens",
+          "Value": ">",
+          "Category": 3,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "D3",
+        "!",
+        "guado",
+        "tieni D",
+        ">"
+      ],
+      "Level": "3"
+    },
+    {
+      "Prg": 12,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 14,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 0.0,
+      "Angle2": 0.0,
+      "Level1": null,
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 48,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 48,
+      "Start": 915,
+      "StartMax": 963,
+      "DetectedHint": null,
+      "DistanceBefore": -90,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": "Water",
+          "Value": "guado",
+          "Category": 6,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "tieni D",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Keep",
+              "Value": "tieni",
+              "Category": 5,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Right",
+              "Value": "D",
+              "Category": 0,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": "Tightens",
+          "Value": ">",
+          "Category": 3,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "!",
+        "guado",
+        "tieni D",
+        ">"
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 13,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 58.204248026520155,
+      "Radius2": 0.0,
+      "Angle1": 161.52404893852125,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": -3.11,
+      "ComboLength": 94,
+      "EntryPoint": [
+        130.81503295898438,
+        7.842808723449707,
+        -508.23297119140625
+      ],
+      "ExitPoint": [
+        130.81503295898438,
+        7.842808723449707,
+        -508.23297119140625
+      ],
+      "DetectedLength": 32,
+      "Start": 963,
+      "StartMax": -1,
+      "DetectedHint": 4,
+      "DistanceBefore": -79,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "S5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "-> D4",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "! sconn.",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "S5",
+        "-> D4",
+        "! sconn."
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 14,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 59.55131151592375,
+      "Radius2": 0.0,
+      "Angle1": 156.0750521091432,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": 3.08,
+      "ComboLength": 51,
+      "EntryPoint": [
+        159.87075805664063,
+        5.8628401756286621,
+        -540.04571533203125
+      ],
+      "ExitPoint": [
+        159.87075805664063,
+        5.8628401756286621,
+        -540.04571533203125
+      ],
+      "DetectedLength": 51,
+      "Start": 1006,
+      "StartMax": -1,
+      "DetectedHint": 3,
+      "DistanceBefore": -102,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "! sconn.",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Caution",
+              "Value": "!",
+              "Category": 4,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Rough",
+              "Value": "sconn.",
+              "Category": 6,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "! sconn."
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 15,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 144.91027101615816,
+      "Radius2": 0.0,
+      "Angle1": 172.50386807245167,
+      "Angle2": 0.0,
+      "Level1": "6",
+      "Level2": null,
+      "Slope": 2.15,
+      "ComboLength": 88,
+      "EntryPoint": [
+        230.17861938476563,
+        8.0909461975097656,
+        -575.4727783203125
+      ],
+      "ExitPoint": [
+        230.17861938476563,
+        8.0909461975097656,
+        -575.4727783203125
+      ],
+      "DetectedLength": 37,
+      "Start": 1089,
+      "StartMax": -1,
+      "DetectedHint": 4,
+      "DistanceBefore": -82,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "x S6",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Then",
+              "Value": "x",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "S6",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "-> taglia",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "D5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "/ Dss",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "x S6",
+        "-> taglia",
+        "D5",
+        "/ Dss"
+      ],
+      "Level": "6"
+    },
+    {
+      "Prg": 16,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 100.87741553283134,
+      "Radius2": 0.0,
+      "Angle1": 165.75031814098352,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": 5.59,
+      "ComboLength": 38,
+      "EntryPoint": [
+        275.96270751953125,
+        10.990106582641602,
+        -595.64788818359375
+      ],
+      "ExitPoint": [
+        275.96270751953125,
+        10.990106582641602,
+        -595.64788818359375
+      ],
+      "DetectedLength": 38,
+      "Start": 1139,
+      "StartMax": -1,
+      "DetectedHint": 3,
+      "DistanceBefore": -118,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "-> taglia",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Into",
+              "Value": "->",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": "Cut",
+              "Value": "taglia",
+              "Category": 5,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "/ Dss",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Over",
+              "Value": "/",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Crest",
+              "Value": "Dss",
+              "Category": 6,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "-> taglia",
+        "/ Dss"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 17,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 1.3,
+      "ComboLength": 114,
+      "EntryPoint": [
+        275.96270751953125,
+        10.990106582641602,
+        -595.64788818359375
+      ],
+      "ExitPoint": [
+        390.93902587890625,
+        13.664760589599609,
+        -622.55303955078125
+      ],
+      "DetectedLength": 81,
+      "Start": 1178,
+      "StartMax": 1259,
+      "DetectedHint": null,
+      "DistanceBefore": -51,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "70",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "S6-",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Cut",
+          "Value": "taglia",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "70",
+        "S6-",
+        "taglia"
+      ],
+      "Level": "70"
+    },
+    {
+      "Prg": 18,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 140.40624352968342,
+      "Radius2": 0.0,
+      "Angle1": 172.35840711657883,
+      "Angle2": 0.0,
+      "Level1": "6-",
+      "Level2": null,
+      "Slope": -5.33,
+      "ComboLength": 33,
+      "EntryPoint": [
+        390.93902587890625,
+        13.664760589599609,
+        -622.55303955078125
+      ],
+      "ExitPoint": [
+        390.93902587890625,
+        13.664760589599609,
+        -622.55303955078125
+      ],
+      "DetectedLength": 33,
+      "Start": 1259,
+      "StartMax": 1293,
+      "DetectedHint": 4,
+      "DistanceBefore": -119,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Cut",
+          "Value": "taglia",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "taglia"
+      ],
+      "Level": "6-"
+    },
+    {
+      "Prg": 19,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": true,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": -3.21,
+      "ComboLength": 135,
+      "EntryPoint": [
+        390.93902587890625,
+        13.664760589599609,
+        -622.55303955078125
+      ],
+      "ExitPoint": [
+        497.89053344726562,
+        7.3955106735229492,
+        -654.7314453125
+      ],
+      "DetectedLength": 77,
+      "Start": 1293,
+      "StartMax": 1370,
+      "DetectedHint": null,
+      "DistanceBefore": -49,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Slowdown",
+          "Value": "rallenta",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "c.g. S",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "non sbagl.",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "rallenta",
+        "c.g. S",
+        "non sbagl."
+      ],
+      "Level": "70"
+    },
+    {
+      "Prg": 20,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 8,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 13.584358760751954,
+      "Radius2": 0.0,
+      "Angle1": 90.0,
+      "Angle2": 0.0,
+      "Level1": "1",
+      "Level2": null,
+      "Slope": -2.32,
+      "ComboLength": 58,
+      "EntryPoint": [
+        497.89053344726562,
+        7.3955106735229492,
+        -654.7314453125
+      ],
+      "ExitPoint": [
+        497.89053344726562,
+        7.3955106735229492,
+        -654.7314453125
+      ],
+      "DetectedLength": 58,
+      "Start": 1370,
+      "StartMax": 1434,
+      "DetectedHint": 6,
+      "DistanceBefore": -147,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "non sbagl.",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "non",
+              "Category": -1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": null,
+              "Value": "sbagl.",
+              "Category": -1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "non sbagl."
+      ],
+      "Level": "c.g."
+    },
+    {
+      "Prg": 21,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 173.41051398590739,
+      "Radius2": 104.70937067998641,
+      "Angle1": 173.93101993001818,
+      "Angle2": 0.0,
+      "Level1": "6",
+      "Level2": null,
+      "Slope": -2.54,
+      "ComboLength": 107,
+      "EntryPoint": [
+        504.1273193359375,
+        5.5823521614074707,
+        -700.9365234375
+      ],
+      "ExitPoint": [
+        504.1273193359375,
+        5.5823521614074707,
+        -700.9365234375
+      ],
+      "DetectedLength": 107,
+      "Start": 1434,
+      "StartMax": -1,
+      "DetectedHint": 4,
+      "DistanceBefore": -67,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "-> S6",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Into",
+              "Value": "->",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "S6",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": "Long",
+          "Value": "L",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Apex",
+          "Value": "sfiora",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "-> S6",
+        "L",
+        "sfiora"
+      ],
+      "Level": "6"
+    },
+    {
+      "Prg": 22,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": -2.67,
+      "ComboLength": 138,
+      "EntryPoint": [
+        504.1273193359375,
+        5.5823521614074707,
+        -700.9365234375
+      ],
+      "ExitPoint": [
+        311.0372314453125,
+        -5.5731072425842285,
+        -841.96502685546875
+      ],
+      "DetectedLength": 138,
+      "Start": 1542,
+      "StartMax": -1,
+      "DetectedHint": null,
+      "DistanceBefore": -78,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "150",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "/ Dss",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Over",
+              "Value": "/",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Crest",
+              "Value": "Dss",
+              "Category": 6,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "150",
+        "/ Dss"
+      ],
+      "Level": "150"
+    },
+    {
+      "Prg": 23,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 8,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 17.149128995652291,
+      "Radius2": 36.129216382312983,
+      "Angle1": 90.0,
+      "Angle2": 0.0,
+      "Level1": "2-",
+      "Level2": null,
+      "Slope": 2.02,
+      "ComboLength": 70,
+      "EntryPoint": [
+        311.0372314453125,
+        -5.5731072425842285,
+        -841.96502685546875
+      ],
+      "ExitPoint": [
+        311.0372314453125,
+        -5.5731072425842285,
+        -841.96502685546875
+      ],
+      "DetectedLength": 69,
+      "Start": 1679,
+      "StartMax": 1749,
+      "DetectedHint": 4,
+      "DistanceBefore": -153,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "! inganna",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Caution",
+              "Value": "!",
+              "Category": 4,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Deceptive",
+              "Value": "inganna",
+              "Category": 2,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "c.g. S",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "albero int.",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "! inganna",
+        "c.g. S",
+        "albero int."
+      ],
+      "Level": "c.g."
+    },
+    {
+      "Prg": 24,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 14,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": true,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 0.0,
+      "Angle2": 0.0,
+      "Level1": null,
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 0,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 0,
+      "Start": 1749,
+      "StartMax": 1750,
+      "DetectedHint": null,
+      "DistanceBefore": -43,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "albero int.",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Tree",
+              "Value": "albero",
+              "Category": 6,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Inside",
+              "Value": "int.",
+              "Category": 0,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "albero int."
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 25,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 34.298292526193968,
+      "Radius2": 0.0,
+      "Angle1": 138.9099487846953,
+      "Angle2": 0.0,
+      "Level1": "3+",
+      "Level2": null,
+      "Slope": 2.02,
+      "ComboLength": 189,
+      "EntryPoint": [
+        256.14212036132812,
+        -3.4957218170166016,
+        -821.58013916015625
+      ],
+      "ExitPoint": [
+        256.14212036132812,
+        -3.4957218170166016,
+        -821.58013916015625
+      ],
+      "DetectedLength": 76,
+      "Start": 1750,
+      "StartMax": 1827,
+      "DetectedHint": 3,
+      "DistanceBefore": -55,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "D3+",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "EarlyApex",
+          "Value": "ant.",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "120",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "D3+",
+        "ant.",
+        "120"
+      ],
+      "Level": "3+"
+    },
+    {
+      "Prg": 26,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": -0.68,
+      "ComboLength": 112,
+      "EntryPoint": [
+        256.14212036132812,
+        -3.4957218170166016,
+        -821.58013916015625
+      ],
+      "ExitPoint": [
+        74.576957702636719,
+        -5.6515283584594727,
+        -839.29278564453125
+      ],
+      "DetectedLength": 112,
+      "Start": 1827,
+      "StartMax": 1938,
+      "DetectedHint": null,
+      "DistanceBefore": -46,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "120"
+    },
+    {
+      "Prg": 27,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 84.8896627554801,
+      "Radius2": 78.07497950465806,
+      "Angle1": 163.0,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": 0.21,
+      "ComboLength": 142,
+      "EntryPoint": [
+        74.576957702636719,
+        -5.6515283584594727,
+        -839.29278564453125
+      ],
+      "ExitPoint": [
+        74.576957702636719,
+        -5.6515283584594727,
+        -839.29278564453125
+      ],
+      "DetectedLength": 71,
+      "Start": 1938,
+      "StartMax": 2014,
+      "DetectedHint": 3,
+      "DistanceBefore": -115,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "D5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "\u0007sacrifica",
+          "Category": -1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "-> S4",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Keep",
+          "Value": "tieni",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "D5",
+        "sacrifica",
+        "-> S4",
+        "tieni"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 28,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 56.257640368782624,
+      "Radius2": 48.782553495043487,
+      "Angle1": 154.9789240805479,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": -2.6,
+      "ComboLength": 66,
+      "EntryPoint": [
+        23.537790298461914,
+        -5.3163094520568848,
+        -882.9559326171875
+      ],
+      "ExitPoint": [
+        23.537790298461914,
+        -5.3163094520568848,
+        -882.9559326171875
+      ],
+      "DetectedLength": 66,
+      "Start": 2014,
+      "StartMax": -1,
+      "DetectedHint": 4,
+      "DistanceBefore": -91,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Keep",
+          "Value": "tieni",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "tieni"
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 29,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 89.5932759884809,
+      "Radius2": 0.0,
+      "Angle1": 164.1007303007041,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": -0.03,
+      "ComboLength": 162,
+      "EntryPoint": [
+        -45.631126403808594,
+        -9.2986516952514648,
+        -916.73077392578125
+      ],
+      "ExitPoint": [
+        -45.631126403808594,
+        -9.2986516952514648,
+        -916.73077392578125
+      ],
+      "DetectedLength": 52,
+      "Start": 2095,
+      "StartMax": 2148,
+      "DetectedHint": 3,
+      "DistanceBefore": -95,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "-> D5",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Into",
+              "Value": "->",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "D5",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "-> taglia",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Into",
+              "Value": "->",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Cut",
+              "Value": "taglia",
+              "Category": 5,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "S5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "D5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "-> D5",
+        "-> taglia",
+        "S5",
+        "D5"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 30,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 68.324178522025861,
+      "Radius2": 0.0,
+      "Angle1": 169.58891426411086,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": 1.49,
+      "ComboLength": 25,
+      "EntryPoint": [
+        -91.514984130859375,
+        -9.3227529525756836,
+        -933.9771728515625
+      ],
+      "ExitPoint": [
+        -91.514984130859375,
+        -9.3227529525756836,
+        -933.9771728515625
+      ],
+      "DetectedLength": 25,
+      "Start": 2148,
+      "StartMax": -1,
+      "DetectedHint": 4,
+      "DistanceBefore": -78,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "5"
+    },
+    {
+      "Prg": 31,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 82.878185821516624,
+      "Radius2": 0.0,
+      "Angle1": 162.0,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": 4.36,
+      "ComboLength": 59,
+      "EntryPoint": [
+        -114.39129638671875,
+        -8.6675357818603516,
+        -943.92132568359375
+      ],
+      "ExitPoint": [
+        -114.39129638671875,
+        -8.6675357818603516,
+        -943.92132568359375
+      ],
+      "DetectedLength": 59,
+      "Start": 2172,
+      "StartMax": 2232,
+      "DetectedHint": 3,
+      "DistanceBefore": -75,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "5"
+    },
+    {
+      "Prg": 32,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": true,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 2.39,
+      "ComboLength": 164,
+      "EntryPoint": [
+        -114.39129638671875,
+        -8.6675357818603516,
+        -943.92132568359375
+      ],
+      "ExitPoint": [
+        -219.49200439453125,
+        -3.2017731666564941,
+        -1021.9486083984375
+      ],
+      "DetectedLength": 73,
+      "Start": 2232,
+      "StartMax": 2305,
+      "DetectedHint": null,
+      "DistanceBefore": -87,
+      "CallPointOffset": -1.51,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "70",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "D4",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "NoCut",
+          "Value": "non.tagl.",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "EarlyApex",
+          "Value": "ant.",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "70",
+        "D4",
+        "non.tagl.",
+        "ant."
+      ],
+      "Level": "70"
+    },
+    {
+      "Prg": 33,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 52.349343341006474,
+      "Radius2": 0.0,
+      "Angle1": 152.0,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": 1.93,
+      "ComboLength": 46,
+      "EntryPoint": [
+        -219.49200439453125,
+        -3.2017731666564941,
+        -1021.9486083984375
+      ],
+      "ExitPoint": [
+        -219.49200439453125,
+        -3.2017731666564941,
+        -1021.9486083984375
+      ],
+      "DetectedLength": 46,
+      "Start": 2305,
+      "StartMax": 2352,
+      "DetectedHint": 3,
+      "DistanceBefore": -114,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "NoCut",
+          "Value": "non.tagl.",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "non.tagl."
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 34,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 14,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 0.0,
+      "Angle2": 0.0,
+      "Level1": null,
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": -2,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": -2,
+      "Start": 2352,
+      "StartMax": 2350,
+      "DetectedHint": null,
+      "DistanceBefore": -62,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "EarlyApex",
+          "Value": "ant.",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "ant."
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 35,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 62.390458798833315,
+      "Radius2": 0.0,
+      "Angle1": 156.68360113404688,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": -0.42,
+      "ComboLength": 359,
+      "EntryPoint": [
+        -246.22691345214844,
+        -1.7783398628234863,
+        -1054.7177734375
+      ],
+      "ExitPoint": [
+        -273.887939453125,
+        -1.8778078556060791,
+        -1088.15087890625
+      ],
+      "DetectedLength": 39,
+      "Start": 2350,
+      "StartMax": 2390,
+      "DetectedHint": 4,
+      "DistanceBefore": -85,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "S4",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Double",
+          "Value": "2*",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "150",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "/ PcDss",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "tieni D",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "S4",
+        "2*",
+        "150",
+        "/ PcDss",
+        "tieni D"
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 36,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 0.47,
+      "ComboLength": 159,
+      "EntryPoint": [
+        -273.887939453125,
+        -1.8778078556060791,
+        -1088.15087890625
+      ],
+      "ExitPoint": [
+        -418.11276245117188,
+        -0.63388735055923462,
+        -1135.893310546875
+      ],
+      "DetectedLength": 159,
+      "Start": 2390,
+      "StartMax": -1,
+      "DetectedHint": null,
+      "DistanceBefore": -55,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "150"
+    },
+    {
+      "Prg": 37,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 11,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 150.08700821738518,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "6",
+      "Level2": null,
+      "Slope": 0.1,
+      "ComboLength": 1,
+      "EntryPoint": [
+        -418.11276245117188,
+        -0.63388735055923462,
+        -1135.893310546875
+      ],
+      "ExitPoint": [
+        -529.804443359375,
+        1.4677292108535767,
+        -1133.97265625
+      ],
+      "DetectedLength": 1,
+      "Start": 2548,
+      "StartMax": 2580,
+      "DetectedHint": 4,
+      "DistanceBefore": -148,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "tieni D",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Keep",
+              "Value": "tieni",
+              "Category": 5,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Right",
+              "Value": "D",
+              "Category": 0,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "tieni D"
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 38,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": -0.94,
+      "ComboLength": 188,
+      "EntryPoint": [
+        -529.804443359375,
+        1.4677292108535767,
+        -1133.97265625
+      ],
+      "ExitPoint": [
+        -589.65753173828125,
+        0.280661404132843,
+        -1092.982666015625
+      ],
+      "DetectedLength": 188,
+      "Start": 2580,
+      "StartMax": -1,
+      "DetectedHint": null,
+      "DistanceBefore": -95,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "200",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "200"
+      ],
+      "Level": "200"
+    },
+    {
+      "Prg": 39,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 47.530827736606845,
+      "Radius2": 0.0,
+      "Angle1": 150.67334082712378,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": 2.25,
+      "ComboLength": 396,
+      "EntryPoint": [
+        -589.65753173828125,
+        0.280661404132843,
+        -1092.982666015625
+      ],
+      "ExitPoint": [
+        -589.65753173828125,
+        0.280661404132843,
+        -1092.982666015625
+      ],
+      "DetectedLength": 51,
+      "Start": 2739,
+      "StartMax": 2807,
+      "DetectedHint": 3,
+      "DistanceBefore": -189,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "tieni S",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Keep",
+              "Value": "tieni",
+              "Category": 5,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Left",
+              "Value": "S",
+              "Category": 0,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "D4",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Go",
+          "Value": "vai",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "S6",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "ExtraLong",
+          "Value": "LLL",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "/ Dss",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "> 4",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "tieni S",
+        "D4",
+        "vai",
+        "S6",
+        "LLL",
+        "/ Dss",
+        "!",
+        "> 4"
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 40,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 14,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 0.0,
+      "Angle2": 0.0,
+      "Level1": null,
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 16,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 16,
+      "Start": 2791,
+      "StartMax": 2807,
+      "DetectedHint": null,
+      "DistanceBefore": -55,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Go",
+          "Value": "vai",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "vai"
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 41,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 191.14060999736861,
+      "Radius2": 0.0,
+      "Angle1": 172.59778723841657,
+      "Angle2": 0.0,
+      "Level1": "6",
+      "Level2": null,
+      "Slope": 1.44,
+      "ComboLength": 311,
+      "EntryPoint": [
+        -644.807373046875,
+        3.0960257053375244,
+        -1056.656982421875
+      ],
+      "ExitPoint": [
+        -736.3665771484375,
+        5.55650520324707,
+        -984.19189453125
+      ],
+      "DetectedLength": 311,
+      "Start": 2807,
+      "StartMax": -1,
+      "DetectedHint": 4,
+      "DistanceBefore": -144,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "/ Dss",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Over",
+              "Value": "/",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Crest",
+              "Value": "Dss",
+              "Category": 6,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "> 4",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Tightens",
+              "Value": ">",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": null,
+              "Value": "4",
+              "Category": -1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "/ Dss",
+        "!",
+        "> 4"
+      ],
+      "Level": "6"
+    },
+    {
+      "Prg": 42,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 47.72102186441446,
+      "Radius2": 0.0,
+      "Angle1": 149.0,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": 2.28,
+      "ComboLength": 152,
+      "EntryPoint": [
+        -753.5823974609375,
+        5.5671882629394531,
+        -807.249755859375
+      ],
+      "ExitPoint": [
+        -753.5823974609375,
+        5.5671882629394531,
+        -807.249755859375
+      ],
+      "DetectedLength": 32,
+      "Start": 3119,
+      "StartMax": 3151,
+      "DetectedHint": 3,
+      "DistanceBefore": -98,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "-> rallenta",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Into",
+              "Value": "->",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": "Slowdown",
+              "Value": "rallenta",
+              "Category": 5,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "D4 Ct",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "D4",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": "Short",
+              "Value": "Ct",
+              "Category": 2,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "dietro Dss",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "S4",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Long",
+          "Value": "L",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "-> rallenta",
+        "D4 Ct",
+        "dietro Dss",
+        "S4",
+        "L"
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 43,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 14,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 0.0,
+      "Angle2": 0.0,
+      "Level1": null,
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": -1,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": -1,
+      "Start": 3152,
+      "StartMax": 3151,
+      "DetectedHint": null,
+      "DistanceBefore": -78,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Short",
+          "Value": "Ct",
+          "Category": 2,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "dietro Dss",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Behind",
+              "Value": "dietro",
+              "Category": 3,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Crest",
+              "Value": "Dss",
+              "Category": 6,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "Ct",
+        "dietro Dss"
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 44,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 56.776820941277521,
+      "Radius2": 64.389869043652268,
+      "Angle1": 155.22258646555798,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": 5.01,
+      "ComboLength": 120,
+      "EntryPoint": [
+        -743.63037109375,
+        6.8112525939941406,
+        -777.439208984375
+      ],
+      "ExitPoint": [
+        -743.63037109375,
+        6.8112525939941406,
+        -777.439208984375
+      ],
+      "DetectedLength": 120,
+      "Start": 3151,
+      "StartMax": -1,
+      "DetectedHint": 4,
+      "DistanceBefore": -81,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "4"
+    },
+    {
+      "Prg": 45,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 62.15527652588851,
+      "Radius2": 0.0,
+      "Angle1": 162.0,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": -0.27,
+      "ComboLength": 90,
+      "EntryPoint": [
+        -631.767822265625,
+        16.356348037719727,
+        -732.35784912109375
+      ],
+      "ExitPoint": [
+        -631.767822265625,
+        16.356348037719727,
+        -732.35784912109375
+      ],
+      "DetectedLength": 34,
+      "Start": 3287,
+      "StartMax": 3321,
+      "DetectedHint": 3,
+      "DistanceBefore": -88,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "-> D5",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Into",
+              "Value": "->",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "D5",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": "Immediately",
+          "Value": "sbt.",
+          "Category": 3,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "S4",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "-> D5",
+        "sbt.",
+        "S4"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 46,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 54.927397337342214,
+      "Radius2": 0.0,
+      "Angle1": 154.43666408102862,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": -0.71,
+      "ComboLength": 56,
+      "EntryPoint": [
+        -600.68719482421875,
+        16.205961227416992,
+        -729.918701171875
+      ],
+      "ExitPoint": [
+        -600.68719482421875,
+        16.205961227416992,
+        -729.918701171875
+      ],
+      "DetectedLength": 56,
+      "Start": 3321,
+      "StartMax": 3427,
+      "DetectedHint": 4,
+      "DistanceBefore": -78,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "4"
+    },
+    {
+      "Prg": 47,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 7,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": true,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 16.169184182654636,
+      "Radius2": 0.0,
+      "Angle1": 92.0,
+      "Angle2": 0.0,
+      "Level1": "1+",
+      "Level2": null,
+      "Slope": -1.47,
+      "ComboLength": 43,
+      "EntryPoint": [
+        -500.91192626953125,
+        11.687990188598633,
+        -757.240234375
+      ],
+      "ExitPoint": [
+        -500.91192626953125,
+        11.687990188598633,
+        -757.240234375
+      ],
+      "DetectedLength": 43,
+      "Start": 3427,
+      "StartMax": 3480,
+      "DetectedHint": 7,
+      "DistanceBefore": -142,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "x !",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Then",
+              "Value": "x",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": "Caution",
+              "Value": "!",
+              "Category": 4,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "c.g. D",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "dietro Dss",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Behind",
+              "Value": "dietro",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Crest",
+              "Value": "Dss",
+              "Category": 6,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "x !",
+        "c.g. D",
+        "dietro Dss"
+      ],
+      "Level": "c.g."
+    },
+    {
+      "Prg": 48,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 67.095272293670376,
+      "Radius2": 0.0,
+      "Angle1": 159.0,
+      "Angle2": 0.0,
+      "Level1": "5-",
+      "Level2": null,
+      "Slope": 1.44,
+      "ComboLength": 100,
+      "EntryPoint": [
+        -462.3607177734375,
+        11.333240509033203,
+        -740.9637451171875
+      ],
+      "ExitPoint": [
+        -481.4969482421875,
+        17.021732330322266,
+        -609.6910400390625
+      ],
+      "DetectedLength": 100,
+      "Start": 3480,
+      "StartMax": 3670,
+      "DetectedHint": 3,
+      "DistanceBefore": -92,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "-> D5-",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Into",
+              "Value": "->",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "D5-",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": "Double",
+          "Value": "2*",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "tieni int. / Dss",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "tieni int.",
+              "Category": 9,
+              "IsPrefixed": false,
+              "Components": [
+                {
+                  "Name": "Keep",
+                  "Value": "tieni",
+                  "Category": 5,
+                  "IsPrefixed": false,
+                  "Components": null,
+                  "Origin": 2
+                },
+                {
+                  "Name": "Inside",
+                  "Value": "int.",
+                  "Category": 0,
+                  "IsPrefixed": false,
+                  "Components": null,
+                  "Origin": 2
+                }
+              ],
+              "Origin": 2
+            },
+            {
+              "Name": null,
+              "Value": "/ Dss",
+              "Category": 9,
+              "IsPrefixed": false,
+              "Components": [
+                {
+                  "Name": "Over",
+                  "Value": "/",
+                  "Category": 3,
+                  "IsPrefixed": false,
+                  "Components": null,
+                  "Origin": 2
+                },
+                {
+                  "Name": "Crest",
+                  "Value": "Dss",
+                  "Category": 6,
+                  "IsPrefixed": false,
+                  "Components": null,
+                  "Origin": 2
+                }
+              ],
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "-> D5-",
+        "2*",
+        "tieni int. / Dss"
+      ],
+      "Level": "5-"
+    },
+    {
+      "Prg": 49,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 52.185671808925775,
+      "Radius2": 0.0,
+      "Angle1": 152.87933070416784,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": -2.62,
+      "ComboLength": 119,
+      "EntryPoint": [
+        -510.50439453125,
+        16.5999813079834,
+        -577.09490966796875
+      ],
+      "ExitPoint": [
+        -510.50439453125,
+        16.5999813079834,
+        -577.09490966796875
+      ],
+      "DetectedLength": 37,
+      "Start": 3670,
+      "StartMax": 3740,
+      "DetectedHint": 4,
+      "DistanceBefore": -103,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "And",
+          "Value": "&",
+          "Category": 3,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "S4",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "x S4",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Again",
+          "Value": "ancora",
+          "Category": 3,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "NoCut",
+          "Value": "non.tagl.",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "&",
+        "S4",
+        "x S4",
+        "ancora",
+        "non.tagl.",
+        "!"
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 50,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 41.876363458856254,
+      "Radius2": 0.0,
+      "Angle1": 146.44498740273693,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": -5.65,
+      "ComboLength": 49,
+      "EntryPoint": [
+        -544.07281494140625,
+        12.628180503845215,
+        -518.39013671875
+      ],
+      "ExitPoint": [
+        -544.07281494140625,
+        12.628180503845215,
+        -518.39013671875
+      ],
+      "DetectedLength": 49,
+      "Start": 3740,
+      "StartMax": -1,
+      "DetectedHint": 4,
+      "DistanceBefore": -130,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "NoCut",
+          "Value": "non.tagl.",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "non.tagl.",
+        "!"
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 51,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 84.783508526542064,
+      "Radius2": 0.0,
+      "Angle1": 163.27459356877284,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": -1.21,
+      "ComboLength": 219,
+      "EntryPoint": [
+        -552.97296142578125,
+        7.9617900848388672,
+        -471.8883056640625
+      ],
+      "ExitPoint": [
+        -552.97296142578125,
+        7.9617900848388672,
+        -471.8883056640625
+      ],
+      "DetectedLength": 44,
+      "Start": 3789,
+      "StartMax": 3832,
+      "DetectedHint": 3,
+      "DistanceBefore": -67,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "-> D5",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Into",
+              "Value": "->",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "D5",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "S4",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "D4",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Double",
+          "Value": "2*",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "-> D5",
+        "S4",
+        "D4",
+        "2*"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 52,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 61.276570537877845,
+      "Radius2": 0.0,
+      "Angle1": 157.0,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": -2.17,
+      "ComboLength": 38,
+      "EntryPoint": [
+        -554.51715087890625,
+        7.0463638305664062,
+        -428.8187255859375
+      ],
+      "ExitPoint": [
+        -554.51715087890625,
+        7.0463638305664062,
+        -428.8187255859375
+      ],
+      "DetectedLength": 38,
+      "Start": 3832,
+      "StartMax": 3870,
+      "DetectedHint": 4,
+      "DistanceBefore": -79,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "4"
+    },
+    {
+      "Prg": 53,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 57.992730052014757,
+      "Radius2": 46.365166197014553,
+      "Angle1": 155.619171569382,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": -0.49,
+      "ComboLength": 101,
+      "EntryPoint": [
+        -551.208740234375,
+        5.6784625053405762,
+        -392.9061279296875
+      ],
+      "ExitPoint": [
+        -607.408447265625,
+        2.8532705307006836,
+        -311.57211303710938
+      ],
+      "DetectedLength": 101,
+      "Start": 3870,
+      "StartMax": -1,
+      "DetectedHint": 3,
+      "DistanceBefore": -90,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Double",
+          "Value": "2*",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "2*"
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 54,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 1.04,
+      "ComboLength": 105,
+      "EntryPoint": [
+        -607.408447265625,
+        2.8532705307006836,
+        -311.57211303710938
+      ],
+      "ExitPoint": [
+        -655.76702880859375,
+        3.7282962799072266,
+        -310.66238403320312
+      ],
+      "DetectedLength": 61,
+      "Start": 3972,
+      "StartMax": 4032,
+      "DetectedHint": null,
+      "DistanceBefore": -49,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "70",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "S4+",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "70",
+        "S4+"
+      ],
+      "Level": "70"
+    },
+    {
+      "Prg": 55,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 62.066917110806543,
+      "Radius2": 0.0,
+      "Angle1": 157.19735911776047,
+      "Angle2": 0.0,
+      "Level1": "4+",
+      "Level2": null,
+      "Slope": -1.59,
+      "ComboLength": 45,
+      "EntryPoint": [
+        -655.76702880859375,
+        3.7282962799072266,
+        -310.66238403320312
+      ],
+      "ExitPoint": [
+        -655.76702880859375,
+        3.7282962799072266,
+        -310.66238403320312
+      ],
+      "DetectedLength": 45,
+      "Start": 4032,
+      "StartMax": 4081,
+      "DetectedHint": 4,
+      "DistanceBefore": -99,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "4+"
+    },
+    {
+      "Prg": 56,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 65.01531569383657,
+      "Radius2": 40.355301259926222,
+      "Angle1": 161.0,
+      "Angle2": 146.0,
+      "Level1": "5",
+      "Level2": "4",
+      "Slope": 1.02,
+      "ComboLength": 133,
+      "EntryPoint": [
+        -704.5767822265625,
+        2.4274344444274902,
+        -306.02725219726562
+      ],
+      "ExitPoint": [
+        -704.5767822265625,
+        2.4274344444274902,
+        -306.02725219726562
+      ],
+      "DetectedLength": 131,
+      "Start": 4081,
+      "StartMax": 4213,
+      "DetectedHint": 3,
+      "DistanceBefore": -106,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "-> D5",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Into",
+              "Value": "->",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "D5",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "> 4",
+          "Category": 3,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Long",
+          "Value": "L",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "DoubleCaution",
+          "Value": "!!",
+          "Category": 4,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "-> D5",
+        "> 4",
+        "L",
+        "!!"
+      ],
+      "Level": "5>4"
+    },
+    {
+      "Prg": 57,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 14,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": null,
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 1,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 1,
+      "Start": 4213,
+      "StartMax": 4214,
+      "DetectedHint": null,
+      "DistanceBefore": -71,
+      "CallPointOffset": 0.0,
+      "Text": "!!",
+      "TagList": [
+        {
+          "Name": "DoubleCaution",
+          "Value": "!!",
+          "Category": 4,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "!!"
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 58,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": true,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 59.775237920634126,
+      "Radius2": 0.0,
+      "Angle1": 162.0,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": -3.12,
+      "ComboLength": 107,
+      "EntryPoint": [
+        -797.97918701171875,
+        4.4477453231811523,
+        -371.17669677734375
+      ],
+      "ExitPoint": [
+        -797.97918701171875,
+        4.4477453231811523,
+        -371.17669677734375
+      ],
+      "DetectedLength": 30,
+      "Start": 4214,
+      "StartMax": 4245,
+      "DetectedHint": 4,
+      "DistanceBefore": -94,
+      "CallPointOffset": -1.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "S5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "-> D5",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Water",
+          "Value": "guado",
+          "Category": 6,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "dopo Dss",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Slowdown",
+          "Value": "rallenta",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "S5",
+        "-> D5",
+        "guado",
+        "dopo Dss",
+        "rallenta"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 59,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 70.925364991925676,
+      "Radius2": 0.0,
+      "Angle1": 160.0,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": 2.77,
+      "ComboLength": 38,
+      "EntryPoint": [
+        -811.31182861328125,
+        2.8078324794769287,
+        -398.4552001953125
+      ],
+      "ExitPoint": [
+        -811.31182861328125,
+        2.8078324794769287,
+        -398.4552001953125
+      ],
+      "DetectedLength": 38,
+      "Start": 4245,
+      "StartMax": 4284,
+      "DetectedHint": 3,
+      "DistanceBefore": -73,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "5"
+    },
+    {
+      "Prg": 60,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 12,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": -2,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": -2,
+      "Start": 4284,
+      "StartMax": 4282,
+      "DetectedHint": null,
+      "DistanceBefore": -93,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Water",
+          "Value": "guado",
+          "Category": 6,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "dopo Dss",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "After",
+              "Value": "dopo",
+              "Category": 3,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Crest",
+              "Value": "Dss",
+              "Category": 6,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": "Slowdown",
+          "Value": "rallenta",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "guado",
+        "dopo Dss",
+        "rallenta"
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 61,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 66.95021373975726,
+      "Radius2": 0.0,
+      "Angle1": 164.0,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": 0.83,
+      "ComboLength": 218,
+      "EntryPoint": [
+        -823.55194091796875,
+        4.5801982879638672,
+        -433.05401611328125
+      ],
+      "ExitPoint": [
+        -823.55194091796875,
+        4.5801982879638672,
+        -433.05401611328125
+      ],
+      "DetectedLength": 41,
+      "Start": 4282,
+      "StartMax": 4324,
+      "DetectedHint": 4,
+      "DistanceBefore": -72,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "S5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Go",
+          "Value": "vai",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "170",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "S5",
+        "vai",
+        "170"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 62,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 0.08,
+      "ComboLength": 176,
+      "EntryPoint": [
+        -823.55194091796875,
+        4.5801982879638672,
+        -433.05401611328125
+      ],
+      "ExitPoint": [
+        -954.61090087890625,
+        4.8757734298706055,
+        -615.07452392578125
+      ],
+      "DetectedLength": 176,
+      "Start": 4324,
+      "StartMax": -1,
+      "DetectedHint": null,
+      "DistanceBefore": -65,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Go",
+          "Value": "vai",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "vai"
+      ],
+      "Level": "170"
+    },
+    {
+      "Prg": 63,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 49.586312564102421,
+      "Radius2": 0.0,
+      "Angle1": 151.0,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": -0.58,
+      "ComboLength": 153,
+      "EntryPoint": [
+        -954.61090087890625,
+        4.8757734298706055,
+        -615.07452392578125
+      ],
+      "ExitPoint": [
+        -954.61090087890625,
+        4.8757734298706055,
+        -615.07452392578125
+      ],
+      "DetectedLength": 60,
+      "Start": 4499,
+      "StartMax": 4563,
+      "DetectedHint": 4,
+      "DistanceBefore": -169,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "S4 ancora",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "S4",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": "Again",
+              "Value": "ancora",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "albero est.",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Tree",
+              "Value": "albero",
+              "Category": 6,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Outside",
+              "Value": "est.",
+              "Category": 0,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "-> D5",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "> 4",
+          "Category": 3,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "S4 ancora",
+        "albero est.",
+        "-> D5",
+        "> 4",
+        "!"
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 64,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 80.000811111652183,
+      "Radius2": 39.559194664081012,
+      "Angle1": 162.22732865099874,
+      "Angle2": 144.53063509891467,
+      "Level1": "5",
+      "Level2": "4",
+      "Slope": 0.36,
+      "ComboLength": 89,
+      "EntryPoint": [
+        -1001.7818603515625,
+        4.62457275390625,
+        -641.65765380859375
+      ],
+      "ExitPoint": [
+        -1001.7818603515625,
+        4.62457275390625,
+        -641.65765380859375
+      ],
+      "DetectedLength": 89,
+      "Start": 4563,
+      "StartMax": -1,
+      "DetectedHint": 3,
+      "DistanceBefore": -98,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "!"
+      ],
+      "Level": "5>4"
+    },
+    {
+      "Prg": 65,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 40.681230963587993,
+      "Radius2": 0.0,
+      "Angle1": 145.62172984987529,
+      "Angle2": 0.0,
+      "Level1": "4-",
+      "Level2": null,
+      "Slope": 0.01,
+      "ComboLength": 159,
+      "EntryPoint": [
+        -1050.9608154296875,
+        5.1148009300231934,
+        -701.9853515625
+      ],
+      "ExitPoint": [
+        -1050.9608154296875,
+        5.1148009300231934,
+        -701.9853515625
+      ],
+      "DetectedLength": 87,
+      "Start": 4652,
+      "StartMax": 4740,
+      "DetectedHint": 4,
+      "DistanceBefore": -81,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "-> S4-",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Into",
+              "Value": "->",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "S4-",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "70",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "-> S4-",
+        "70"
+      ],
+      "Level": "4-"
+    },
+    {
+      "Prg": 66,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 0.02,
+      "ComboLength": 71,
+      "EntryPoint": [
+        -1050.9608154296875,
+        5.1148009300231934,
+        -701.9853515625
+      ],
+      "ExitPoint": [
+        -1174.686279296875,
+        5.1557102203369141,
+        -790.3858642578125
+      ],
+      "DetectedLength": 71,
+      "Start": 4740,
+      "StartMax": -1,
+      "DetectedHint": null,
+      "DistanceBefore": -46,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "70"
+    },
+    {
+      "Prg": 67,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 113.61962896186556,
+      "Radius2": 0.0,
+      "Angle1": 167.3643257823725,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": -0.1,
+      "ComboLength": 140,
+      "EntryPoint": [
+        -1174.686279296875,
+        5.1557102203369141,
+        -790.3858642578125
+      ],
+      "ExitPoint": [
+        -1174.686279296875,
+        5.1557102203369141,
+        -790.3858642578125
+      ],
+      "DetectedLength": 45,
+      "Start": 4810,
+      "StartMax": 4871,
+      "DetectedHint": 4,
+      "DistanceBefore": -88,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "S5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "-> D5",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Go",
+          "Value": "vai",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "S5",
+        "-> D5",
+        "vai"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 68,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 125.49606469664303,
+      "Radius2": 92.796427055960621,
+      "Angle1": 168.43885492180365,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": 0.03,
+      "ComboLength": 79,
+      "EntryPoint": [
+        -1230.502197265625,
+        5.1003890037536621,
+        -799.52191162109375
+      ],
+      "ExitPoint": [
+        -1230.502197265625,
+        5.1003890037536621,
+        -799.52191162109375
+      ],
+      "DetectedLength": 79,
+      "Start": 4871,
+      "StartMax": -1,
+      "DetectedHint": 3,
+      "DistanceBefore": -90,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Go",
+          "Value": "vai",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "vai"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 69,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": -1.01,
+      "ComboLength": 129,
+      "EntryPoint": [
+        -1230.502197265625,
+        5.1003890037536621,
+        -799.52191162109375
+      ],
+      "ExitPoint": [
+        -1413.387939453125,
+        1.4712295532226563,
+        -893.0062255859375
+      ],
+      "DetectedLength": 129,
+      "Start": 4951,
+      "StartMax": 5079,
+      "DetectedHint": null,
+      "DistanceBefore": -54,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "120",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "120"
+      ],
+      "Level": "120"
+    },
+    {
+      "Prg": 70,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 118.24333119055781,
+      "Radius2": 0.0,
+      "Angle1": 167.97677068466697,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": -3.96,
+      "ComboLength": 129,
+      "EntryPoint": [
+        -1413.387939453125,
+        1.4712295532226563,
+        -893.0062255859375
+      ],
+      "ExitPoint": [
+        -1413.387939453125,
+        1.4712295532226563,
+        -893.0062255859375
+      ],
+      "DetectedLength": 50,
+      "Start": 5079,
+      "StartMax": 5136,
+      "DetectedHint": 4,
+      "DistanceBefore": -149,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "S5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "! Avv",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Caution",
+              "Value": "!",
+              "Category": 4,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Combe",
+              "Value": "Avv",
+              "Category": 6,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "-> D5",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "S5",
+        "! Avv",
+        "-> D5"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 71,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 125.99759340125213,
+      "Radius2": 126.22344637017014,
+      "Angle1": 168.46475737803988,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": -3.08,
+      "ComboLength": 72,
+      "EntryPoint": [
+        -1466.739013671875,
+        -2.4290039539337158,
+        -911.6300048828125
+      ],
+      "ExitPoint": [
+        -1466.739013671875,
+        -2.4290039539337158,
+        -911.6300048828125
+      ],
+      "DetectedLength": 72,
+      "Start": 5136,
+      "StartMax": -1,
+      "DetectedHint": 3,
+      "DistanceBefore": -77,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [],
+      "SpeakTags": [],
+      "Level": "5"
+    },
+    {
+      "Prg": 72,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 53.6582829145266,
+      "Radius2": 0.0,
+      "Angle1": 153.37547759804502,
+      "Angle2": 0.0,
+      "Level1": "4",
+      "Level2": null,
+      "Slope": 6.75,
+      "ComboLength": 114,
+      "EntryPoint": [
+        -1566.9874267578125,
+        -4.6583309173583984,
+        -972.5997314453125
+      ],
+      "ExitPoint": [
+        -1566.9874267578125,
+        -4.6583309173583984,
+        -972.5997314453125
+      ],
+      "DetectedLength": 57,
+      "Start": 5255,
+      "StartMax": 5313,
+      "DetectedHint": 4,
+      "DistanceBefore": -94,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "x S4",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": "Then",
+              "Value": "x",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "S4",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
+          "Origin": 0
+        },
+        {
+          "Name": "Into",
+          "Value": "->",
+          "Category": 3,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Immediately",
+          "Value": "sbt.",
+          "Category": 3,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "D6",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "UpHill",
+          "Value": "sale",
+          "Category": 6,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "x S4",
+        "->",
+        "sbt.",
+        "D6",
+        "sale"
+      ],
+      "Level": "4"
+    },
+    {
+      "Prg": 73,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 148.13073756095102,
+      "Radius2": 0.0,
+      "Angle1": 172.87734014271496,
+      "Angle2": 0.0,
+      "Level1": "6",
+      "Level2": null,
+      "Slope": 6.78,
+      "ComboLength": 56,
+      "EntryPoint": [
+        -1618.356201171875,
+        1.7865710258483887,
+        -990.22906494140625
+      ],
+      "ExitPoint": [
+        -1618.356201171875,
+        1.7865710258483887,
+        -990.22906494140625
+      ],
+      "DetectedLength": 56,
+      "Start": 5313,
+      "StartMax": 5370,
+      "DetectedHint": 3,
+      "DistanceBefore": -101,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Immediately",
+          "Value": "sbt.",
+          "Category": 3,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": "UpHill",
+          "Value": "sale",
+          "Category": 6,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "sbt.",
+        "sale"
+      ],
+      "Level": "6"
+    },
+    {
+      "Prg": 74,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 216,
+      "EntryPoint": [
+        -1618.356201171875,
+        1.7865710258483887,
+        -990.22906494140625
+      ],
+      "ExitPoint": null,
+      "DetectedLength": 216,
+      "Start": 5369,
+      "StartMax": -1,
+      "DetectedHint": null,
+      "DistanceBefore": -79,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "220",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "DownHill",
+          "Value": "scende",
+          "Category": 6,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "220",
+        "scende"
+      ],
+      "Level": "220"
+    },
+    {
+      "Prg": 75,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 12,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": "NaN",
+      "ComboLength": 239,
+      "EntryPoint": null,
+      "ExitPoint": [
+        -2098.429931640625,
+        6.2705698013305664,
+        -1146.0782470703125
+      ],
+      "DetectedLength": 20,
+      "Start": 5585,
+      "StartMax": 5606,
+      "DetectedHint": null,
+      "DistanceBefore": -102,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Water",
+          "Value": "guado",
+          "Category": 6,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "220",
+          "Category": 8,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "UpHill",
+          "Value": "sale",
+          "Category": 6,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "guado",
+        "220",
+        "sale"
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 76,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": "NaN",
+      "ComboLength": 218,
+      "EntryPoint": [
+        -2098.429931640625,
+        6.2705698013305664,
+        -1146.0782470703125
+      ],
+      "ExitPoint": [
+        -2098.429931640625,
+        6.2705698013305664,
+        -1146.0782470703125
+      ],
+      "DetectedLength": 218,
+      "Start": 5606,
+      "StartMax": -1,
+      "DetectedHint": null,
+      "DistanceBefore": -125,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "UpHill",
+          "Value": "sale",
+          "Category": 6,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "sale"
+      ],
+      "Level": "220"
+    },
+    {
+      "Prg": 77,
+      "Enabled": true,
+      "SimplifyNotation": true,
+      "Hint": 4,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 168.96074963644523,
+      "Radius2": 0.0,
+      "Angle1": 171.45781455161907,
+      "Angle2": 0.0,
+      "Level1": "6",
+      "Level2": null,
+      "Slope": -8.35,
+      "ComboLength": 138,
+      "EntryPoint": [
+        -2098.429931640625,
+        6.2705698013305664,
+        -1146.0782470703125
+      ],
+      "ExitPoint": [
+        -2098.429931640625,
+        6.2705698013305664,
+        -1146.0782470703125
+      ],
+      "DetectedLength": 45,
+      "Start": 5823,
+      "StartMax": 5869,
+      "DetectedHint": 4,
+      "DistanceBefore": -155,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "S6",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "DownHill",
+          "Value": "scende",
+          "Category": 6,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "tieni int.",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "D5",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "UpHill",
+          "Value": "sale",
+          "Category": 6,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "S6",
+        "scende",
+        "!",
+        "tieni int.",
+        "D5",
+        "sale"
+      ],
+      "Level": "6"
+    },
+    {
+      "Prg": 78,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "Hint": 14,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 0.0,
+      "Angle2": 0.0,
+      "Level1": null,
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 13,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 13,
+      "Start": 5869,
+      "StartMax": 5882,
+      "DetectedHint": null,
+      "DistanceBefore": -107,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "DownHill",
+          "Value": "scende",
+          "Category": 6,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "Category": 4,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "tieni int.",
+          "Category": 9,
+          "IsPrefixed": true,
+          "Components": [
+            {
+              "Name": "Keep",
+              "Value": "tieni",
+              "Category": 5,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            },
+            {
+              "Name": "Inside",
+              "Value": "int.",
+              "Category": 0,
+              "IsPrefixed": true,
+              "Components": null,
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "scende",
+        "!",
+        "tieni int."
+      ],
+      "Level": ""
+    },
+    {
+      "Prg": 79,
+      "Enabled": false,
+      "SimplifyNotation": true,
+      "Hint": 3,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 121.20156334670217,
+      "Radius2": 0.0,
+      "Angle1": 167.71908686748543,
+      "Angle2": 0.0,
+      "Level1": "5",
+      "Level2": null,
+      "Slope": -5.32,
+      "ComboLength": 65,
+      "EntryPoint": [
+        -2154.8037109375,
+        -2.378042459487915,
+        -1149.14990234375
+      ],
+      "ExitPoint": [
+        -2154.8037109375,
+        -2.378042459487915,
+        -1149.14990234375
+      ],
+      "DetectedLength": 65,
+      "Start": 5882,
+      "StartMax": -1,
+      "DetectedHint": 3,
+      "DistanceBefore": -94,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "UpHill",
+          "Value": "sale",
+          "Category": 6,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "sale"
+      ],
+      "Level": "5"
+    },
+    {
+      "Prg": 80,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 0,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 177,
+      "EntryPoint": [
+        -2154.8037109375,
+        -2.378042459487915,
+        -1149.14990234375
+      ],
+      "ExitPoint": null,
+      "DetectedLength": 177,
+      "Start": 5948,
+      "StartMax": 6125,
+      "DetectedHint": null,
+      "DistanceBefore": -67,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "170 al traguardo",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "170",
+              "Category": 8,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": null,
+              "Value": "al traguardo",
+              "Category": 9,
+              "IsPrefixed": false,
+              "Components": [
+                {
+                  "Name": "To",
+                  "Value": "al",
+                  "Category": 7,
+                  "IsPrefixed": false,
+                  "Components": null,
+                  "Origin": 2
+                },
+                {
+                  "Name": "Finish",
+                  "Value": "traguardo",
+                  "Category": 6,
+                  "IsPrefixed": false,
+                  "Components": null,
+                  "Origin": 2
+                }
+              ],
+              "Origin": 2
+            }
+          ],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "170 al traguardo"
+      ],
+      "Level": "170"
+    },
+    {
+      "Prg": 81,
+      "Enabled": true,
+      "SimplifyNotation": false,
+      "Hint": 15,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": false,
+      "WarningsControl": false,
+      "TurnControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "Radius1": 0.0,
+      "Radius2": 0.0,
+      "Angle1": 180.0,
+      "Angle2": 0.0,
+      "Level1": "",
+      "Level2": null,
+      "Slope": 0.0,
+      "ComboLength": 200,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 200,
+      "Start": 6125,
+      "StartMax": -1,
+      "DetectedHint": null,
+      "DistanceBefore": -20,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "TagList": [
+        {
+          "Name": "Stop",
+          "Value": "stop",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        }
+      ],
+      "SpeakTags": [
+        "stop"
+      ],
+      "Level": ""
+    }
+  ]
+}
