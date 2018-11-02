@@ -4,3 +4,6 @@
 [submodule "French"]
 	path = French
 	url = https://github.com/TGDSimware/French
+[submodule "English"]
+	path = English
+	url = https://github.com/TGDSimware/English
