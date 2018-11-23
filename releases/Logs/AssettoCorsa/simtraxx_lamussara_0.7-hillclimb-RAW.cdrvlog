@@ -1,19 +1,20 @@
 {
   "_callPointOffset": 0,
   "_lock": {},
-  "SwVersion": "7.9.0.0",
+  "SwVersion": "8.1.0.0",
   "Game": "AssettoCorsa",
   "TrackCode": "simtraxx_lamussara_0.7-hillclimb",
   "Author": null,
   "VersionMajor": 0,
   "VersionMinor": 0,
   "Notes": null,
-  "CoDriverGuid": "fc56f28c-912a-4ec7-ada0-6065b32903ee",
+  "CoDriverGuid": "",
+  "InvertStayKeep": false,
   "TurnDetail": 2,
-  "Track": "",
+  "Track": "La Mussara HillClimb",
   "DateRecorded": "2018-10-30T22:46:21.4582694+01:00",
   "InitialDistance": null,
-  "SuddenlyCallDistance": 0,
+  "ImmediatelyCallDistance": 0,
   "IntoCallDistance": 20,
   "ForCallDistance": 45,
   "AndCallDistance": 70,
@@ -24,13 +25,15 @@
   "Style": 1,
   "OpenTightensStyle": 0,
   "ChicaneCallStyle": 0,
+  "ImmediatelyCallStyle": 0,
   "DistancesRounding": 0,
-  "TargetAdvance": 1.8,
+  "TargetAdvance": 2.4,
   "CallPointOffset": 0,
   "NumberOfLaps": 15,
   "DelayBeforeCountdown": 6600,
   "StartSyncOffset": 0,
   "ShortTurn": 20,
+  "HalfLongTurn": 80,
   "LongTurn": 100,
   "VeryLongTurn": 150,
   "ExtraLongTurn": 250,
@@ -53,7 +56,7 @@
     748.669921875
   ],
   "TrackLength": 19809.612879869957,
-  "ACUseClutchAsStarter": false,
+  "ACUseClutchAsStarter": true,
   "PaceNotes": [
     {
       "Prg": 1,
@@ -94,7 +97,7 @@
       "Start": 16,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -24,
+      "DistanceBefore": -31,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -109,15 +112,32 @@
         {
           "Name": null,
           "Value": "/ Dss",
-          "Category": 4,
+          "Category": 9,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [
+            {
+              "Name": "Over",
+              "Value": "/",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": "Crest",
+              "Value": "Dss",
+              "Category": 6,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
           "Origin": 0
         },
         {
           "Name": null,
-          "Value": "S2-",
-          "Category": 1,
+          "Value": "-> S2-",
+          "Category": 9,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
@@ -134,7 +154,7 @@
       "SpeakTags": [
         "D4",
         "/ Dss",
-        "S2-",
+        "-> S2-",
         "< 3+"
       ],
       "Level": "4"
@@ -224,7 +244,7 @@
       "Start": 82,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -40,
+      "DistanceBefore": -53,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -270,18 +290,10 @@
       "Start": 165,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -63,
+      "DistanceBefore": -69,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
-        {
-          "Name": "Immediately",
-          "Value": "sbt.",
-          "Category": 3,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 0
-        },
         {
           "Name": null,
           "Value": "D4-",
@@ -300,7 +312,6 @@
         }
       ],
       "SpeakTags": [
-        "sbt.",
         "D4-",
         "x S3"
       ],
@@ -345,7 +356,7 @@
       "Start": 231,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -68,
+      "DistanceBefore": -90,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -391,7 +402,7 @@
       "Start": 285,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -47,
+      "DistanceBefore": -59,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -405,7 +416,7 @@
         },
         {
           "Name": null,
-          "Value": "Tino D",
+          "Value": "Inv D",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -414,7 +425,7 @@
       ],
       "SpeakTags": [
         "100",
-        "Tino D"
+        "Inv D"
       ],
       "Level": "100"
     },
@@ -457,12 +468,12 @@
       "Start": 372,
       "StartMax": -1,
       "DetectedHint": 5,
-      "DistanceBefore": -83,
+      "DistanceBefore": -103,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "Tino"
+      "Level": "Inv"
     },
     {
       "Prg": 8,
@@ -503,7 +514,7 @@
       "Start": 430,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -31,
+      "DistanceBefore": -39,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -586,7 +597,7 @@
       "Start": 492,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -61,
+      "DistanceBefore": -71,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -632,7 +643,7 @@
       "Start": 573,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -83,
+      "DistanceBefore": -105,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -733,7 +744,7 @@
       "Start": 656,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -125,
+      "DistanceBefore": -152,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -779,7 +790,7 @@
       "Start": 786,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -74,
+      "DistanceBefore": -98,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -862,7 +873,7 @@
       "Start": 836,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -56,
+      "DistanceBefore": -65,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -908,7 +919,7 @@
       "Start": 908,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -77,
+      "DistanceBefore": -100,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -974,7 +985,7 @@
       "Start": 962,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -71,
+      "DistanceBefore": -91,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -1020,7 +1031,7 @@
       "Start": 1020,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -82,
+      "DistanceBefore": -98,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -1112,7 +1123,7 @@
       "Start": 1104,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -82,
+      "DistanceBefore": -114,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -1158,7 +1169,7 @@
       "Start": 1186,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -85,
+      "DistanceBefore": -100,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -1250,7 +1261,7 @@
       "Start": 1228,
       "StartMax": -1,
       "DetectedHint": 1,
-      "DistanceBefore": -60,
+      "DistanceBefore": -68,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -1296,7 +1307,7 @@
       "Start": 1294,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -109,
+      "DistanceBefore": -139,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -1379,7 +1390,7 @@
       "Start": 1498,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -75,
+      "DistanceBefore": -95,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -1462,7 +1473,7 @@
       "Start": 1593,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -62,
+      "DistanceBefore": -77,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -1508,7 +1519,7 @@
       "Start": 1630,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -68,
+      "DistanceBefore": -86,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -1591,7 +1602,7 @@
       "Start": 1693,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -77,
+      "DistanceBefore": -97,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -1637,18 +1648,10 @@
       "Start": 1738,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -89,
+      "DistanceBefore": -102,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
-        {
-          "Name": "Immediately",
-          "Value": "sbt.",
-          "Category": 3,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 0
-        },
         {
           "Name": null,
           "Value": "S5-",
@@ -1675,7 +1678,6 @@
         }
       ],
       "SpeakTags": [
-        "sbt.",
         "S5-",
         "> 4",
         "L"
@@ -1721,7 +1723,7 @@
       "Start": 1875,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -78,
+      "DistanceBefore": -93,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -1822,7 +1824,7 @@
       "Start": 1924,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -113,
+      "DistanceBefore": -139,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -1868,7 +1870,7 @@
       "Start": 2091,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -81,
+      "DistanceBefore": -97,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -1960,7 +1962,7 @@
       "Start": 2167,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -91,
+      "DistanceBefore": -114,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -2006,18 +2008,10 @@
       "Start": 2316,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -73,
+      "DistanceBefore": -78,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
-        {
-          "Name": "Immediately",
-          "Value": "sbt.",
-          "Category": 3,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 0
-        },
         {
           "Name": null,
           "Value": "D4",
@@ -2041,13 +2035,21 @@
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
+        },
+        {
+          "Name": "HalfLong",
+          "Value": "MzLg",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
         }
       ],
       "SpeakTags": [
-        "sbt.",
         "D4",
         "-> S2",
-        "-> D5"
+        "-> D5",
+        "MzLg"
       ],
       "Level": "4"
     },
@@ -2090,7 +2092,7 @@
       "Start": 2340,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -64,
+      "DistanceBefore": -81,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -2136,7 +2138,7 @@
       "Start": 2382,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -53,
+      "DistanceBefore": -81,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -2182,7 +2184,7 @@
       "Start": 2470,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -70,
+      "DistanceBefore": -91,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -2239,7 +2241,7 @@
       "Start": 2711,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -110,
+      "DistanceBefore": -156,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -2305,7 +2307,7 @@
       "Start": 2790,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -55,
+      "DistanceBefore": -75,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -2351,18 +2353,10 @@
       "Start": 2827,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -58,
+      "DistanceBefore": -62,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
-        {
-          "Name": "Immediately",
-          "Value": "sbt.",
-          "Category": 3,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 0
-        },
         {
           "Name": null,
           "Value": "D4",
@@ -2389,7 +2383,6 @@
         }
       ],
       "SpeakTags": [
-        "sbt.",
         "D4",
         "-> acc. S",
         "x acc. D"
@@ -2435,7 +2428,7 @@
       "Start": 2872,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -76,
+      "DistanceBefore": -85,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -2481,7 +2474,7 @@
       "Start": 2918,
       "StartMax": -1,
       "DetectedHint": 1,
-      "DistanceBefore": -83,
+      "DistanceBefore": -99,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -2527,7 +2520,7 @@
       "Start": 2946,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -100,
+      "DistanceBefore": -126,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -2610,7 +2603,7 @@
       "Start": 3091,
       "StartMax": -1,
       "DetectedHint": 1,
-      "DistanceBefore": -87,
+      "DistanceBefore": -107,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -2685,7 +2678,7 @@
       "Start": 3157,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -85,
+      "DistanceBefore": -104,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -2731,7 +2724,7 @@
       "Start": 3211,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -61,
+      "DistanceBefore": -71,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -2806,7 +2799,7 @@
       "Start": 3290,
       "StartMax": -1,
       "DetectedHint": 6,
-      "DistanceBefore": -111,
+      "DistanceBefore": -134,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -2852,7 +2845,7 @@
       "Start": 3373,
       "StartMax": -1,
       "DetectedHint": 5,
-      "DistanceBefore": -53,
+      "DistanceBefore": -57,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -2935,7 +2928,7 @@
       "Start": 3471,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -43,
+      "DistanceBefore": -53,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -3027,7 +3020,7 @@
       "Start": 3525,
       "StartMax": -1,
       "DetectedHint": 6,
-      "DistanceBefore": -98,
+      "DistanceBefore": -107,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -3073,7 +3066,7 @@
       "Start": 3649,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -52,
+      "DistanceBefore": -67,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -3157,7 +3150,7 @@
       "Start": 3699,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -72,
+      "DistanceBefore": -96,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -3203,7 +3196,7 @@
       "Start": 3748,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -61,
+      "DistanceBefore": -69,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -3249,7 +3242,7 @@
       "Start": 3806,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -102,
+      "DistanceBefore": -129,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -3293,12 +3286,21 @@
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
+        },
+        {
+          "Name": "TripleCaution",
+          "Value": "!!!",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
         }
       ],
       "SpeakTags": [
         "x D2+",
         "> 1",
-        "-> S2+"
+        "-> S2+",
+        "!!!"
       ],
       "Level": "2+>1"
     },
@@ -3341,11 +3343,22 @@
       "Start": 3884,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -45,
+      "DistanceBefore": -81,
       "CallPointOffset": 0.0,
       "Text": "",
-      "TagList": [],
-      "SpeakTags": [],
+      "TagList": [
+        {
+          "Name": "TripleCaution",
+          "Value": "!!!",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": [],
+          "Origin": 2
+        }
+      ],
+      "SpeakTags": [
+        "!!!"
+      ],
       "Level": "2+"
     },
     {
@@ -3387,7 +3400,7 @@
       "Start": 3955,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -67,
+      "DistanceBefore": -84,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -3488,7 +3501,7 @@
       "Start": 4034,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -114,
+      "DistanceBefore": -144,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -3534,7 +3547,7 @@
       "Start": 4162,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -66,
+      "DistanceBefore": -85,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -3626,7 +3639,7 @@
       "Start": 4233,
       "StartMax": -1,
       "DetectedHint": 5,
-      "DistanceBefore": -97,
+      "DistanceBefore": -104,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -3672,7 +3685,7 @@
       "Start": 4282,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -34,
+      "DistanceBefore": -41,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -3729,7 +3742,7 @@
       "Start": 4431,
       "StartMax": -1,
       "DetectedHint": 6,
-      "DistanceBefore": -87,
+      "DistanceBefore": -106,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -3786,7 +3799,7 @@
       "Start": 4509,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -23,
+      "DistanceBefore": -29,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -3861,7 +3874,7 @@
       "Start": 4604,
       "StartMax": -1,
       "DetectedHint": 5,
-      "DistanceBefore": -92,
+      "DistanceBefore": -110,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -3907,7 +3920,7 @@
       "Start": 4750,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -68,
+      "DistanceBefore": -83,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -3982,7 +3995,7 @@
       "Start": 4832,
       "StartMax": -1,
       "DetectedHint": 6,
-      "DistanceBefore": -93,
+      "DistanceBefore": -120,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -4028,7 +4041,7 @@
       "Start": 4962,
       "StartMax": -1,
       "DetectedHint": 5,
-      "DistanceBefore": -62,
+      "DistanceBefore": -75,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4094,7 +4107,7 @@
       "Start": 5111,
       "StartMax": -1,
       "DetectedHint": 6,
-      "DistanceBefore": -66,
+      "DistanceBefore": -86,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4168,7 +4181,7 @@
       "Start": 5255,
       "StartMax": -1,
       "DetectedHint": 5,
-      "DistanceBefore": -58,
+      "DistanceBefore": -75,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4242,7 +4255,7 @@
       "Start": 5322,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -28,
+      "DistanceBefore": -35,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4299,7 +4312,7 @@
       "Start": 5611,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -151,
+      "DistanceBefore": -186,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4374,7 +4387,7 @@
       "Start": 5697,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -64,
+      "DistanceBefore": -82,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -4420,7 +4433,7 @@
       "Start": 5780,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -94,
+      "DistanceBefore": -112,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4503,7 +4516,7 @@
       "Start": 5917,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -106,
+      "DistanceBefore": -127,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4587,7 +4600,7 @@
       "Start": 5976,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -74,
+      "DistanceBefore": -92,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -4633,7 +4646,7 @@
       "Start": 6071,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -81,
+      "DistanceBefore": -107,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4708,7 +4721,7 @@
       "Start": 6146,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -81,
+      "DistanceBefore": -103,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -4754,7 +4767,7 @@
       "Start": 6273,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -78,
+      "DistanceBefore": -98,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4770,14 +4783,6 @@
           "Name": null,
           "Value": "S4",
           "Category": 1,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 0
-        },
-        {
-          "Name": "Immediately",
-          "Value": "sbt.",
-          "Category": 3,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
@@ -4802,7 +4807,6 @@
       "SpeakTags": [
         "&",
         "S4",
-        "sbt.",
         "D5-",
         "-> S2"
       ],
@@ -4847,7 +4851,7 @@
       "Start": 6315,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -76,
+      "DistanceBefore": -85,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -4893,7 +4897,7 @@
       "Start": 6373,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -68,
+      "DistanceBefore": -87,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -4939,18 +4943,10 @@
       "Start": 6430,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -56,
+      "DistanceBefore": -61,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
-        {
-          "Name": "Immediately",
-          "Value": "sbt.",
-          "Category": 3,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 0
-        },
         {
           "Name": null,
           "Value": "D4",
@@ -4969,7 +4965,6 @@
         }
       ],
       "SpeakTags": [
-        "sbt.",
         "D4",
         "100"
       ],
@@ -5014,7 +5009,7 @@
       "Start": 6455,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -53,
+      "DistanceBefore": -67,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -5060,7 +5055,7 @@
       "Start": 6546,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -82,
+      "DistanceBefore": -111,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5135,7 +5130,7 @@
       "Start": 6597,
       "StartMax": -1,
       "DetectedHint": 6,
-      "DistanceBefore": -106,
+      "DistanceBefore": -113,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -5181,7 +5176,7 @@
       "Start": 6684,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -38,
+      "DistanceBefore": -48,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5238,7 +5233,7 @@
       "Start": 6848,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -83,
+      "DistanceBefore": -117,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5304,7 +5299,7 @@
       "Start": 6909,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -61,
+      "DistanceBefore": -77,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -5350,7 +5345,7 @@
       "Start": 6960,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -89,
+      "DistanceBefore": -115,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5433,7 +5428,7 @@
       "Start": 7065,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -62,
+      "DistanceBefore": -73,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5499,7 +5494,7 @@
       "Start": 7144,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -85,
+      "DistanceBefore": -108,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -5545,7 +5540,7 @@
       "Start": 7218,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -68,
+      "DistanceBefore": -85,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5646,7 +5641,7 @@
       "Start": 7252,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -120,
+      "DistanceBefore": -147,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -5692,7 +5687,7 @@
       "Start": 7390,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -106,
+      "DistanceBefore": -137,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5784,7 +5779,7 @@
       "Start": 7519,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -61,
+      "DistanceBefore": -78,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5867,7 +5862,7 @@
       "Start": 7584,
       "StartMax": -1,
       "DetectedHint": 5,
-      "DistanceBefore": -92,
+      "DistanceBefore": -99,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -5913,7 +5908,7 @@
       "Start": 7693,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -40,
+      "DistanceBefore": -55,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5996,7 +5991,7 @@
       "Start": 7805,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -55,
+      "DistanceBefore": -68,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -6070,7 +6065,7 @@
       "Start": 7914,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -76,
+      "DistanceBefore": -105,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -6145,7 +6140,7 @@
       "Start": 7994,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -68,
+      "DistanceBefore": -87,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -6191,7 +6186,7 @@
       "Start": 8035,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -51,
+      "DistanceBefore": -64,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -6248,7 +6243,7 @@
       "Start": 8141,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -79,
+      "DistanceBefore": -110,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -6323,7 +6318,7 @@
       "Start": 8241,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -74,
+      "DistanceBefore": -97,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -6369,7 +6364,7 @@
       "Start": 8317,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -80,
+      "DistanceBefore": -98,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -6452,7 +6447,7 @@
       "Start": 8367,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -54,
+      "DistanceBefore": -68,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -6498,7 +6493,7 @@
       "Start": 8455,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -78,
+      "DistanceBefore": -101,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -6573,7 +6568,7 @@
       "Start": 8514,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -89,
+      "DistanceBefore": -120,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -6619,7 +6614,7 @@
       "Start": 8617,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -58,
+      "DistanceBefore": -68,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -6676,7 +6671,7 @@
       "Start": 8748,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -108,
+      "DistanceBefore": -142,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -6742,7 +6737,7 @@
       "Start": 8858,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -91,
+      "DistanceBefore": -106,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -6817,7 +6812,7 @@
       "Start": 8883,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -68,
+      "DistanceBefore": -86,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -6863,7 +6858,7 @@
       "Start": 9102,
       "StartMax": -1,
       "DetectedHint": 1,
-      "DistanceBefore": -114,
+      "DistanceBefore": -141,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -6929,7 +6924,7 @@
       "Start": 9151,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -67,
+      "DistanceBefore": -79,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -6975,7 +6970,7 @@
       "Start": 9232,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -81,
+      "DistanceBefore": -105,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -7041,7 +7036,7 @@
       "Start": 9272,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -69,
+      "DistanceBefore": -88,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -7087,7 +7082,7 @@
       "Start": 9440,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -147,
+      "DistanceBefore": -194,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -7162,7 +7157,7 @@
       "Start": 9523,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -60,
+      "DistanceBefore": -70,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -7208,7 +7203,7 @@
       "Start": 9607,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -86,
+      "DistanceBefore": -106,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -7283,7 +7278,7 @@
       "Start": 9645,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -80,
+      "DistanceBefore": -96,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -7329,7 +7324,7 @@
       "Start": 9700,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -76,
+      "DistanceBefore": -86,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -7375,7 +7370,7 @@
       "Start": 9778,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -92,
+      "DistanceBefore": -121,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -7450,7 +7445,7 @@
       "Start": 9840,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -79,
+      "DistanceBefore": -89,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -7496,7 +7491,7 @@
       "Start": 9858,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -69,
+      "DistanceBefore": -87,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -7553,7 +7548,7 @@
       "Start": 10088,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -129,
+      "DistanceBefore": -156,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -7619,7 +7614,7 @@
       "Start": 10120,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -66,
+      "DistanceBefore": -77,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -7665,7 +7660,7 @@
       "Start": 10193,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -85,
+      "DistanceBefore": -113,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -7731,7 +7726,7 @@
       "Start": 10226,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -62,
+      "DistanceBefore": -77,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -7777,7 +7772,7 @@
       "Start": 10499,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -117,
+      "DistanceBefore": -154,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -7843,7 +7838,7 @@
       "Start": 10563,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -69,
+      "DistanceBefore": -89,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -7889,7 +7884,7 @@
       "Start": 10672,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -82,
+      "DistanceBefore": -109,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -7964,7 +7959,7 @@
       "Start": 10722,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -78,
+      "DistanceBefore": -94,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -8010,7 +8005,7 @@
       "Start": 10802,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -73,
+      "DistanceBefore": -92,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -8093,7 +8088,7 @@
       "Start": 10847,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -54,
+      "DistanceBefore": -68,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -8139,7 +8134,7 @@
       "Start": 10937,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -87,
+      "DistanceBefore": -110,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -8205,7 +8200,7 @@
       "Start": 10982,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -52,
+      "DistanceBefore": -65,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -8251,7 +8246,7 @@
       "Start": 11071,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -80,
+      "DistanceBefore": -108,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -8308,7 +8303,7 @@
       "Start": 11175,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -86,
+      "DistanceBefore": -111,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -8383,7 +8378,7 @@
       "Start": 11220,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -66,
+      "DistanceBefore": -84,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -8429,7 +8424,7 @@
       "Start": 11400,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -105,
+      "DistanceBefore": -143,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -8495,7 +8490,7 @@
       "Start": 11437,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -73,
+      "DistanceBefore": -87,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -8541,7 +8536,7 @@
       "Start": 11594,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -94,
+      "DistanceBefore": -130,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -8598,7 +8593,7 @@
       "Start": 11701,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -70,
+      "DistanceBefore": -88,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -8681,7 +8676,7 @@
       "Start": 11779,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -57,
+      "DistanceBefore": -72,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -8727,7 +8722,7 @@
       "Start": 12007,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -105,
+      "DistanceBefore": -146,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -8793,7 +8788,7 @@
       "Start": 12073,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -63,
+      "DistanceBefore": -79,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -8839,7 +8834,7 @@
       "Start": 12290,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -109,
+      "DistanceBefore": -142,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -8905,7 +8900,7 @@
       "Start": 12353,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -60,
+      "DistanceBefore": -76,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -8951,16 +8946,33 @@
       "Start": 12678,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -130,
+      "DistanceBefore": -194,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "S4",
-          "Category": 1,
+          "Value": "S4 MzLg",
+          "Category": 9,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "S4",
+              "Category": 1,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": "HalfLong",
+              "Value": "MzLg",
+              "Category": 2,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
           "Origin": 0
         },
         {
@@ -8973,7 +8985,7 @@
         }
       ],
       "SpeakTags": [
-        "S4",
+        "S4 MzLg",
         "a.vista"
       ],
       "Level": "4"
@@ -9017,7 +9029,7 @@
       "Start": 12766,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -57,
+      "DistanceBefore": -72,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -9063,7 +9075,7 @@
       "Start": 13029,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -120,
+      "DistanceBefore": -160,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -9129,7 +9141,7 @@
       "Start": 13100,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -63,
+      "DistanceBefore": -75,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -9175,7 +9187,7 @@
       "Start": 13255,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -96,
+      "DistanceBefore": -125,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -9241,7 +9253,7 @@
       "Start": 13297,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -56,
+      "DistanceBefore": -71,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -9287,7 +9299,7 @@
       "Start": 13394,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -93,
+      "DistanceBefore": -123,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -9353,7 +9365,7 @@
       "Start": 13443,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -68,
+      "DistanceBefore": -82,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -9399,7 +9411,7 @@
       "Start": 13589,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -95,
+      "DistanceBefore": -124,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -9456,7 +9468,7 @@
       "Start": 13705,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -86,
+      "DistanceBefore": -113,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -9531,7 +9543,7 @@
       "Start": 13755,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -67,
+      "DistanceBefore": -78,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -9577,7 +9589,7 @@
       "Start": 13880,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -94,
+      "DistanceBefore": -128,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -9643,7 +9655,7 @@
       "Start": 13919,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -67,
+      "DistanceBefore": -78,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -9689,7 +9701,7 @@
       "Start": 13996,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -87,
+      "DistanceBefore": -113,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -9755,7 +9767,7 @@
       "Start": 14045,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -61,
+      "DistanceBefore": -76,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -9801,7 +9813,7 @@
       "Start": 14398,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -129,
+      "DistanceBefore": -178,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -9867,7 +9879,7 @@
       "Start": 14452,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -66,
+      "DistanceBefore": -77,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -9913,7 +9925,7 @@
       "Start": 14573,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -97,
+      "DistanceBefore": -128,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -9970,30 +9982,30 @@
       "Start": 14682,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -89,
+      "DistanceBefore": -71,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": null,
-          "Value": "/ GrDss",
-          "Category": 4,
+          "Name": "BigCrest",
+          "Value": "GrDss",
+          "Category": 6,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         },
         {
           "Name": null,
-          "Value": "D6-",
-          "Category": 1,
+          "Value": "-> D6-",
+          "Category": 9,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         }
       ],
       "SpeakTags": [
-        "/ GrDss",
-        "D6-"
+        "GrDss",
+        "-> D6-"
       ],
       "Level": ""
     },
@@ -10036,7 +10048,7 @@
       "Start": 14777,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -100,
+      "DistanceBefore": -134,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -10082,7 +10094,7 @@
       "Start": 14806,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -63,
+      "DistanceBefore": -78,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -10139,7 +10151,7 @@
       "Start": 15132,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -119,
+      "DistanceBefore": -154,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -10205,7 +10217,7 @@
       "Start": 15157,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -71,
+      "DistanceBefore": -83,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -10251,7 +10263,7 @@
       "Start": 15268,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -94,
+      "DistanceBefore": -128,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -10317,7 +10329,7 @@
       "Start": 15311,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -80,
+      "DistanceBefore": -94,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -10363,7 +10375,7 @@
       "Start": 15337,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -63,
+      "DistanceBefore": -79,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -10420,7 +10432,7 @@
       "Start": 15755,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -131,
+      "DistanceBefore": -170,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -10441,14 +10453,6 @@
           "Origin": 0
         },
         {
-          "Name": "Immediately",
-          "Value": "sbt.",
-          "Category": 3,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 0
-        },
-        {
           "Name": null,
           "Value": "D5-",
           "Category": 1,
@@ -10460,7 +10464,6 @@
       "SpeakTags": [
         "D6",
         "-> S4+",
-        "sbt.",
         "D5-"
       ],
       "Level": "6"
@@ -10504,7 +10507,7 @@
       "Start": 15791,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -77,
+      "DistanceBefore": -99,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -10550,7 +10553,7 @@
       "Start": 15850,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -79,
+      "DistanceBefore": -87,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -10596,18 +10599,10 @@
       "Start": 15892,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -72,
+      "DistanceBefore": -81,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
-        {
-          "Name": "Immediately",
-          "Value": "sbt.",
-          "Category": 3,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 0
-        },
         {
           "Name": null,
           "Value": "S3",
@@ -10626,7 +10621,6 @@
         }
       ],
       "SpeakTags": [
-        "sbt.",
         "S3",
         "-> D4+"
       ],
@@ -10671,7 +10665,7 @@
       "Start": 15967,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -66,
+      "DistanceBefore": -83,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -10717,7 +10711,7 @@
       "Start": 16041,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -80,
+      "DistanceBefore": -99,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -10800,7 +10794,7 @@
       "Start": 16108,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -83,
+      "DistanceBefore": -103,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -10846,7 +10840,7 @@
       "Start": 16186,
       "StartMax": -1,
       "DetectedHint": 1,
-      "DistanceBefore": -88,
+      "DistanceBefore": -108,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -10930,7 +10924,7 @@
       "Start": 16240,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -86,
+      "DistanceBefore": -108,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -10976,7 +10970,7 @@
       "Start": 16286,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -44,
+      "DistanceBefore": -61,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -11022,21 +11016,21 @@
       "Start": 16288,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -47,
+      "DistanceBefore": -44,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": null,
-          "Value": "/ Dss",
-          "Category": 4,
+          "Name": "SmallCrest",
+          "Value": "PcDss",
+          "Category": 6,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         }
       ],
       "SpeakTags": [
-        "/ Dss"
+        "PcDss"
       ],
       "Level": ""
     },
@@ -11079,10 +11073,18 @@
       "Start": 16413,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -71,
+      "DistanceBefore": -126,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
+        {
+          "Name": "And",
+          "Value": "&",
+          "Category": 3,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
         {
           "Name": null,
           "Value": "D4+",
@@ -11090,10 +11092,20 @@
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
+        },
+        {
+          "Name": "HalfLong",
+          "Value": "MzLg",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
         }
       ],
       "SpeakTags": [
-        "D4+"
+        "&",
+        "D4+",
+        "MzLg"
       ],
       "Level": "4+"
     },
@@ -11136,7 +11148,7 @@
       "Start": 16542,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -88,
+      "DistanceBefore": -118,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -11211,7 +11223,7 @@
       "Start": 16593,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -72,
+      "DistanceBefore": -84,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -11257,7 +11269,7 @@
       "Start": 16622,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -58,
+      "DistanceBefore": -73,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -11323,7 +11335,7 @@
       "Start": 16708,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -89,
+      "DistanceBefore": -114,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -11369,7 +11381,7 @@
       "Start": 16805,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -83,
+      "DistanceBefore": -110,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -11435,7 +11447,7 @@
       "Start": 16925,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -80,
+      "DistanceBefore": -103,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -11528,7 +11540,7 @@
       "Start": 17006,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -108,
+      "DistanceBefore": -136,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -11574,7 +11586,7 @@
       "Start": 17195,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -64,
+      "DistanceBefore": -80,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -11657,7 +11669,7 @@
       "Start": 17263,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -75,
+      "DistanceBefore": -97,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -11703,7 +11715,7 @@
       "Start": 17333,
       "StartMax": -1,
       "DetectedHint": 1,
-      "DistanceBefore": -75,
+      "DistanceBefore": -90,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -11735,15 +11747,32 @@
         {
           "Name": null,
           "Value": "/ Dss",
-          "Category": 4,
+          "Category": 9,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [
+            {
+              "Name": "Over",
+              "Value": "/",
+              "Category": 3,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            },
+            {
+              "Name": "Crest",
+              "Value": "Dss",
+              "Category": 6,
+              "IsPrefixed": false,
+              "Components": null,
+              "Origin": 0
+            }
+          ],
           "Origin": 0
         },
         {
           "Name": null,
-          "Value": "S5",
-          "Category": 1,
+          "Value": "-> S5",
+          "Category": 9,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
@@ -11752,7 +11781,7 @@
       "SpeakTags": [
         "x acc. D",
         "/ Dss",
-        "S5"
+        "-> S5"
       ],
       "Level": "acc."
     },
@@ -11795,7 +11824,7 @@
       "Start": 17340,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -65,
+      "DistanceBefore": -62,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -11841,7 +11870,7 @@
       "Start": 17391,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -77,
+      "DistanceBefore": -104,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -11887,7 +11916,7 @@
       "Start": 17432,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -64,
+      "DistanceBefore": -74,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -11953,7 +11982,7 @@
       "Start": 17508,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -87,
+      "DistanceBefore": -116,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -11999,7 +12028,7 @@
       "Start": 17562,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -59,
+      "DistanceBefore": -76,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -12056,7 +12085,7 @@
       "Start": 17751,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -150,
+      "DistanceBefore": -182,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -12131,7 +12160,7 @@
       "Start": 17831,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -80,
+      "DistanceBefore": -93,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -12177,7 +12206,7 @@
       "Start": 17907,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -78,
+      "DistanceBefore": -96,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -12260,7 +12289,7 @@
       "Start": 17998,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -87,
+      "DistanceBefore": -104,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -12306,7 +12335,7 @@
       "Start": 18049,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -82,
+      "DistanceBefore": -93,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -12389,7 +12418,7 @@
       "Start": 18070,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -64,
+      "DistanceBefore": -83,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -12435,7 +12464,7 @@
       "Start": 18279,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -115,
+      "DistanceBefore": -199,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -12448,6 +12477,14 @@
           "Origin": 0
         },
         {
+          "Name": "TripleCaution",
+          "Value": "!!!",
+          "Category": 4,
+          "IsPrefixed": false,
+          "Components": [],
+          "Origin": 2
+        },
+        {
           "Name": null,
           "Value": "100",
           "Category": 8,
@@ -12458,6 +12495,7 @@
       ],
       "SpeakTags": [
         "D4-",
+        "!!!",
         "100"
       ],
       "Level": "4-"
@@ -12501,7 +12539,7 @@
       "Start": 18337,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -52,
+      "DistanceBefore": -65,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -12547,7 +12585,7 @@
       "Start": 18446,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -90,
+      "DistanceBefore": -120,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -12604,7 +12642,7 @@
       "Start": 18550,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -80,
+      "DistanceBefore": -103,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -12679,7 +12717,7 @@
       "Start": 18580,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -79,
+      "DistanceBefore": -93,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -12725,7 +12763,7 @@
       "Start": 18676,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -84,
+      "DistanceBefore": -110,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -12809,7 +12847,7 @@
       "Start": 18747,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -80,
+      "DistanceBefore": -104,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -12855,7 +12893,7 @@
       "Start": 18868,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -68,
+      "DistanceBefore": -86,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -12938,7 +12976,7 @@
       "Start": 18889,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -69,
+      "DistanceBefore": -87,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -12984,7 +13022,7 @@
       "Start": 19070,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -111,
+      "DistanceBefore": -136,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -13059,7 +13097,7 @@
       "Start": 19108,
       "StartMax": -1,
       "DetectedHint": 6,
-      "DistanceBefore": -110,
+      "DistanceBefore": -119,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -13105,18 +13143,10 @@
       "Start": 19186,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -50,
+      "DistanceBefore": -54,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
-        {
-          "Name": "Immediately",
-          "Value": "sbt.",
-          "Category": 3,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 0
-        },
         {
           "Name": null,
           "Value": "D4-",
@@ -13143,7 +13173,6 @@
         }
       ],
       "SpeakTags": [
-        "sbt.",
         "D4-",
         "< 5-",
         "S5"
@@ -13189,7 +13218,7 @@
       "Start": 19285,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -75,
+      "DistanceBefore": -80,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -13235,7 +13264,7 @@
       "Start": 19327,
       "StartMax": -1,
       "DetectedHint": 5,
-      "DistanceBefore": -98,
+      "DistanceBefore": -106,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -13318,7 +13347,7 @@
       "Start": 19425,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -48,
+      "DistanceBefore": -60,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -13401,7 +13430,7 @@
       "Start": 19466,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -67,
+      "DistanceBefore": -78,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -13447,22 +13476,22 @@
       "Start": 19591,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -88,
+      "DistanceBefore": -83,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": null,
-          "Value": "/ Dss",
-          "Category": 4,
+          "Name": "SmallCrest",
+          "Value": "PcDss",
+          "Category": 6,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         },
         {
           "Name": null,
-          "Value": "S5+",
-          "Category": 1,
+          "Value": "x S5+",
+          "Category": 9,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
@@ -13485,8 +13514,8 @@
         }
       ],
       "SpeakTags": [
-        "/ Dss",
-        "S5+",
+        "PcDss",
+        "x S5+",
         "> 5-",
         "-> D5"
       ],
@@ -13531,7 +13560,7 @@
       "Start": 19600,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -132,
+      "DistanceBefore": -174,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -13577,7 +13606,7 @@
       "Start": 19674,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -71,
+      "DistanceBefore": -88,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -13619,7 +13648,7 @@
       "Start": 19729,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -63,
+      "DistanceBefore": -74,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [

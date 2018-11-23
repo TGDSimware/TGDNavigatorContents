@@ -1,19 +1,20 @@
 {
   "_callPointOffset": 0,
   "_lock": {},
-  "SwVersion": "5.0.0.0",
+  "SwVersion": "8.1.0.0",
   "Game": "AssettoCorsa",
   "TrackCode": "simtraxx_monte_erice_0.85-ericehc",
   "Author": "TGD Simware",
   "VersionMajor": 1,
   "VersionMinor": 0,
   "Notes": null,
-  "CoDriverGuid": "398fb673-8ff8-4b3b-90d1-299bf2cd2480",
+  "CoDriverGuid": "",
+  "InvertStayKeep": true,
   "TurnDetail": 4,
   "Track": "Monte Erice",
   "DateRecorded": "2018-09-27T23:02:10.8864782+02:00",
   "InitialDistance": null,
-  "SuddenlyCallDistance": 5,
+  "ImmediatelyCallDistance": 0,
   "IntoCallDistance": 20,
   "ForCallDistance": 45,
   "AndCallDistance": 70,
@@ -24,6 +25,7 @@
   "Style": 1,
   "OpenTightensStyle": 0,
   "ChicaneCallStyle": 0,
+  "ImmediatelyCallStyle": 0,
   "DistancesRounding": 0,
   "TargetAdvance": 3.0,
   "CallPointOffset": 0,
@@ -31,6 +33,7 @@
   "DelayBeforeCountdown": 6600,
   "StartSyncOffset": 0,
   "ShortTurn": 20,
+  "HalfLongTurn": 80,
   "LongTurn": 130,
   "VeryLongTurn": 190,
   "ExtraLongTurn": 250,
@@ -99,7 +102,7 @@
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "kinks"
+      "Level": "a.vista"
     },
     {
       "Prg": 2,
@@ -140,13 +143,13 @@
       "Start": 660,
       "StartMax": 731,
       "DetectedHint": 3,
-      "DistanceBefore": -203,
+      "DistanceBefore": -210,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "R5",
+          "Value": "D5",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -162,7 +165,7 @@
         },
         {
           "Name": null,
-          "Value": "HP L",
+          "Value": "Tor S",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -170,9 +173,9 @@
         }
       ],
       "SpeakTags": [
-        "R5",
+        "D5",
         "x !",
-        "HP L"
+        "Tor S"
       ],
       "Level": "5"
     },
@@ -215,12 +218,12 @@
       "Start": 731,
       "StartMax": 771,
       "DetectedHint": 6,
-      "DistanceBefore": -138,
+      "DistanceBefore": -149,
       "CallPointOffset": 0.0,
       "Text": "!!!",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "HP"
+      "Level": "Tor"
     },
     {
       "Prg": 4,
@@ -261,38 +264,29 @@
       "Start": 771,
       "StartMax": 885,
       "DetectedHint": null,
-      "DistanceBefore": -45,
+      "DistanceBefore": -54,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> L5",
-          "Category": 9,
+          "Value": "S5",
+          "Category": 1,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "L5",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "HalfLong",
+          "Value": "SLg",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
           "Origin": 0
         },
         {
           "Name": null,
-          "Value": "imm HP R",
+          "Value": "sbt. Tor D",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -300,8 +294,9 @@
         }
       ],
       "SpeakTags": [
-        "-> L5",
-        "imm HP R"
+        "S5",
+        "SLg",
+        "sbt. Tor D"
       ],
       "Level": "5"
     },
@@ -349,12 +344,12 @@
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "HP"
+      "Level": "Tor"
     },
     {
       "Prg": 6,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 4,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -372,7 +367,7 @@
       "Radius2": 0.0,
       "Angle1": 169.45823977238652,
       "Angle2": 0.0,
-      "Level1": "5",
+      "Level1": "5+",
       "Level2": null,
       "Slope": 3.35,
       "ComboLength": 139,
@@ -396,48 +391,40 @@
       "TagList": [
         {
           "Name": null,
-          "Value": "-> L5",
-          "Category": 9,
+          "Value": "S5+",
+          "Category": 1,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "L5",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
+          "Components": null,
           "Origin": 0
         },
         {
           "Name": null,
-          "Value": "R4",
-          "Category": 1,
+          "Value": "-> D4",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "HalfLong",
+          "Value": "SLg",
+          "Category": 2,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         }
       ],
       "SpeakTags": [
-        "-> L5",
-        "R4"
+        "S5+",
+        "-> D4",
+        "SLg"
       ],
-      "Level": "5"
+      "Level": "5+"
     },
     {
       "Prg": 7,
       "Enabled": false,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -473,7 +460,7 @@
       "Start": 1001,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -97,
+      "DistanceBefore": -123,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -483,7 +470,7 @@
     {
       "Prg": 8,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 4,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -519,13 +506,13 @@
       "Start": 1115,
       "StartMax": 1212,
       "DetectedHint": 4,
-      "DistanceBefore": -151,
+      "DistanceBefore": -200,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "x L5",
+          "Value": "x S5",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -539,7 +526,7 @@
             },
             {
               "Name": null,
-              "Value": "L5",
+              "Value": "S5",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -549,11 +536,19 @@
           "Origin": 0
         },
         {
+          "Name": "HalfLong",
+          "Value": "SLg",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
           "Name": "Caution",
           "Value": "!",
           "Category": 4,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         },
         {
@@ -567,7 +562,7 @@
               "Value": ">",
               "Category": 3,
               "IsPrefixed": false,
-              "Components": null,
+              "Components": [],
               "Origin": 2
             },
             {
@@ -582,41 +577,32 @@
           "Origin": 2
         },
         {
-          "Name": null,
-          "Value": "stay R",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Keep",
-              "Value": "stay",
-              "Category": 5,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 2
-            },
-            {
-              "Name": "Right",
-              "Value": "R",
-              "Category": 0,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 2
-            }
-          ],
+          "Components": [],
+          "Origin": 2
+        },
+        {
+          "Name": "Right",
+          "Value": "D",
+          "Category": 0,
+          "IsPrefixed": false,
+          "Components": [],
           "Origin": 2
         },
         {
           "Name": null,
-          "Value": "-> R2",
-          "Category": 9,
+          "Value": "D2-",
+          "Category": 1,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         },
         {
           "Name": "LateApex",
-          "Value": "late",
+          "Value": "rit.",
           "Category": 5,
           "IsPrefixed": false,
           "Components": null,
@@ -624,19 +610,21 @@
         }
       ],
       "SpeakTags": [
-        "x L5",
+        "x S5",
+        "SLg",
         "!",
         "> 3",
-        "stay R",
-        "-> R2",
-        "late"
+        "tieni",
+        "D",
+        "D2-",
+        "rit."
       ],
       "Level": "5"
     },
     {
       "Prg": 9,
       "Enabled": false,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -654,7 +642,7 @@
       "Radius2": 0.0,
       "Angle1": 96.943070938481327,
       "Angle2": 0.0,
-      "Level1": "2",
+      "Level1": "2-",
       "Level2": null,
       "Slope": 4.76,
       "ComboLength": 82,
@@ -672,23 +660,23 @@
       "Start": 1212,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -108,
+      "DistanceBefore": -112,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": "LateApex",
-          "Value": "late",
+          "Value": "rit.",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "late"
+        "rit."
       ],
-      "Level": "2"
+      "Level": "2-"
     },
     {
       "Prg": 10,
@@ -729,33 +717,24 @@
       "Start": 1294,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -77,
+      "DistanceBefore": -85,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> L3+",
-          "Category": 9,
+          "Value": "S3+",
+          "Category": 1,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "L3+",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "HalfLong",
+          "Value": "SLg",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
           "Origin": 0
         },
         {
@@ -763,12 +742,13 @@
           "Value": "2T",
           "Category": 2,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "-> L3+",
+        "S3+",
+        "SLg",
         "2T"
       ],
       "Level": "3+"
@@ -776,7 +756,7 @@
     {
       "Prg": 11,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -794,7 +774,7 @@
       "Radius2": 0.0,
       "Angle1": 159.6970472671635,
       "Angle2": 0.0,
-      "Level1": "5",
+      "Level1": "5-",
       "Level2": null,
       "Slope": 4.09,
       "ComboLength": 73,
@@ -812,13 +792,13 @@
       "Start": 1412,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -103,
+      "DistanceBefore": -109,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> R5",
+          "Value": "-> D5-",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -832,7 +812,7 @@
             },
             {
               "Name": null,
-              "Value": "R5",
+              "Value": "D5-",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -843,18 +823,18 @@
         },
         {
           "Name": "Flat",
-          "Value": "Flat",
+          "Value": "piena",
           "Category": 2,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "-> R5",
-        "Flat"
+        "-> D5-",
+        "piena"
       ],
-      "Level": "5"
+      "Level": "5-"
     },
     {
       "Prg": 12,
@@ -895,13 +875,13 @@
       "Start": 1517,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -128,
+      "DistanceBefore": -134,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "x cut",
+          "Value": "x taglia",
           "Category": 9,
           "IsPrefixed": true,
           "Components": [
@@ -915,7 +895,7 @@
             },
             {
               "Name": "Cut",
-              "Value": "cut",
+              "Value": "taglia",
               "Category": 5,
               "IsPrefixed": true,
               "Components": null,
@@ -926,7 +906,7 @@
         },
         {
           "Name": null,
-          "Value": "Slight L",
+          "Value": "acc. S",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -934,7 +914,7 @@
         },
         {
           "Name": null,
-          "Value": "-> R6",
+          "Value": "-> D6-",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -942,7 +922,7 @@
         },
         {
           "Name": null,
-          "Value": "-> L4",
+          "Value": "-> S4+",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -950,7 +930,7 @@
         },
         {
           "Name": "Leave",
-          "Value": "leave",
+          "Value": "lascia",
           "Category": 5,
           "IsPrefixed": false,
           "Components": null,
@@ -958,13 +938,13 @@
         }
       ],
       "SpeakTags": [
-        "x cut",
-        "Slight L",
-        "-> R6",
-        "-> L4",
-        "leave"
+        "x taglia",
+        "acc. S",
+        "-> D6-",
+        "-> S4+",
+        "lascia"
       ],
-      "Level": "Slight"
+      "Level": "acc."
     },
     {
       "Prg": 13,
@@ -987,7 +967,7 @@
       "Radius2": 0.0,
       "Angle1": 172.0,
       "Angle2": 0.0,
-      "Level1": "6",
+      "Level1": "6-",
       "Level2": null,
       "Slope": 4.03,
       "ComboLength": 45,
@@ -1005,12 +985,12 @@
       "Start": 1554,
       "StartMax": 1607,
       "DetectedHint": 3,
-      "DistanceBefore": -106,
+      "DistanceBefore": -110,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "6"
+      "Level": "6-"
     },
     {
       "Prg": 14,
@@ -1033,7 +1013,7 @@
       "Radius2": 0.0,
       "Angle1": 154.72809218055235,
       "Angle2": 0.0,
-      "Level1": "4",
+      "Level1": "4+",
       "Level2": null,
       "Slope": 4.97,
       "ComboLength": 74,
@@ -1051,28 +1031,28 @@
       "Start": 1607,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -117,
+      "DistanceBefore": -129,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": "Leave",
-          "Value": "leave",
+          "Value": "lascia",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "leave"
+        "lascia"
       ],
-      "Level": "4"
+      "Level": "4+"
     },
     {
       "Prg": 15,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -1108,47 +1088,39 @@
       "Start": 1681,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -105,
+      "DistanceBefore": -124,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> R5",
-          "Category": 9,
+          "Value": "D5",
+          "Category": 1,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "R5",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "HalfLong",
+          "Value": "SLg",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
           "Origin": 0
         },
         {
           "Name": "Flat",
-          "Value": "Flat",
+          "Value": "piena",
           "Category": 2,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "-> R5",
-        "Flat"
+        "D5",
+        "SLg",
+        "piena"
       ],
       "Level": "5"
     },
@@ -1173,7 +1145,7 @@
       "Radius2": 0.0,
       "Angle1": 159.26843078427714,
       "Angle2": 0.0,
-      "Level1": "5",
+      "Level1": "5-",
       "Level2": null,
       "Slope": 4.29,
       "ComboLength": 383,
@@ -1191,13 +1163,13 @@
       "Start": 1807,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -121,
+      "DistanceBefore": -156,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "x L5",
+          "Value": "x S5-",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -1211,7 +1183,7 @@
             },
             {
               "Name": null,
-              "Value": "L5",
+              "Value": "S5-",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -1221,24 +1193,40 @@
           "Origin": 0
         },
         {
-          "Name": "Apex",
-          "Value": "apx",
-          "Category": 5,
+          "Name": "HalfLong",
+          "Value": "SLg",
+          "Category": 2,
           "IsPrefixed": false,
           "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Apex",
+          "Value": "sfiora",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": [],
           "Origin": 2
         },
         {
-          "Name": null,
-          "Value": "stay R",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Right",
+          "Value": "D",
+          "Category": 0,
           "IsPrefixed": true,
           "Components": null,
           "Origin": 0
         },
         {
           "Name": null,
-          "Value": "imm Acute L",
+          "Value": "sbt. Tino S",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -1246,12 +1234,14 @@
         }
       ],
       "SpeakTags": [
-        "x L5",
-        "apx",
-        "stay R",
-        "imm Acute L"
+        "x S5-",
+        "SLg",
+        "sfiora",
+        "tieni",
+        "D",
+        "sbt. Tino S"
       ],
-      "Level": "5"
+      "Level": "5-"
     },
     {
       "Prg": 17,
@@ -1292,40 +1282,32 @@
       "Start": 1943,
       "StartMax": 2011,
       "DetectedHint": 1,
-      "DistanceBefore": -105,
+      "DistanceBefore": -120,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": null,
-          "Value": "stay R",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
           "IsPrefixed": true,
-          "Components": [
-            {
-              "Name": "Keep",
-              "Value": "stay",
-              "Category": 5,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            },
-            {
-              "Name": "Right",
-              "Value": "R",
-              "Category": 0,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            }
-          ],
+          "Components": [],
+          "Origin": 2
+        },
+        {
+          "Name": "Right",
+          "Value": "D",
+          "Category": 0,
+          "IsPrefixed": true,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "stay R"
+        "tieni",
+        "D"
       ],
-      "Level": "Slight"
+      "Level": "acc."
     },
     {
       "Prg": 18,
@@ -1366,12 +1348,12 @@
       "Start": 2011,
       "StartMax": 2075,
       "DetectedHint": 6,
-      "DistanceBefore": -114,
+      "DistanceBefore": -120,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "Acute"
+      "Level": "Tino"
     },
     {
       "Prg": 19,
@@ -1412,33 +1394,16 @@
       "Start": 2075,
       "StartMax": -1,
       "DetectedHint": 1,
-      "DistanceBefore": -73,
+      "DistanceBefore": -69,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> Slight R",
-          "Category": 9,
+          "Value": "acc. D",
+          "Category": 1,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "Slight R",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
+          "Components": null,
           "Origin": 0
         },
         {
@@ -1451,7 +1416,7 @@
         },
         {
           "Name": "Long",
-          "Value": "Lg",
+          "Value": "L",
           "Category": 2,
           "IsPrefixed": false,
           "Components": null,
@@ -1459,20 +1424,20 @@
         },
         {
           "Name": "Cut",
-          "Value": "cut",
+          "Value": "taglia",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "-> Slight R",
+        "acc. D",
         "> 5-",
-        "Lg",
-        "cut"
+        "L",
+        "taglia"
       ],
-      "Level": "Slight>5-"
+      "Level": "acc.>5-"
     },
     {
       "Prg": 20,
@@ -1513,38 +1478,29 @@
       "Start": 2267,
       "StartMax": 2304,
       "DetectedHint": 4,
-      "DistanceBefore": -97,
+      "DistanceBefore": -112,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": null,
-          "Value": "stay L",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
           "IsPrefixed": true,
-          "Components": [
-            {
-              "Name": "Keep",
-              "Value": "stay",
-              "Category": 5,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            },
-            {
-              "Name": "Left",
-              "Value": "L",
-              "Category": 0,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            }
-          ],
+          "Components": [],
+          "Origin": 2
+        },
+        {
+          "Name": "Left",
+          "Value": "S",
+          "Category": 0,
+          "IsPrefixed": true,
+          "Components": [],
           "Origin": 2
         },
         {
           "Name": null,
-          "Value": "imm HP R",
+          "Value": "sbt. Tor D",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -1568,8 +1524,9 @@
         }
       ],
       "SpeakTags": [
-        "stay L",
-        "imm HP R",
+        "tieni",
+        "S",
+        "sbt. Tor D",
         "!",
         ">"
       ],
@@ -1614,7 +1571,7 @@
       "Start": 2304,
       "StartMax": -1,
       "DetectedHint": 5,
-      "DistanceBefore": -136,
+      "DistanceBefore": -143,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -1623,7 +1580,7 @@
           "Value": "!",
           "Category": 4,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         },
         {
@@ -1631,7 +1588,7 @@
           "Value": ">",
           "Category": 3,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
@@ -1639,7 +1596,7 @@
         "!",
         ">"
       ],
-      "Level": "HP"
+      "Level": "Tor"
     },
     {
       "Prg": 22,
@@ -1680,13 +1637,13 @@
       "Start": 2397,
       "StartMax": 2516,
       "DetectedHint": 4,
-      "DistanceBefore": -31,
+      "DistanceBefore": -41,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> L4",
+          "Value": "-> S4",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -1700,7 +1657,7 @@
             },
             {
               "Name": null,
-              "Value": "L4",
+              "Value": "S4",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -1710,16 +1667,24 @@
           "Origin": 0
         },
         {
-          "Name": "Slowdown",
-          "Value": "brk",
-          "Category": 5,
+          "Name": "HalfLong",
+          "Value": "SLg",
+          "Category": 2,
           "IsPrefixed": false,
           "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Slowdown",
+          "Value": "rallenta",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": [],
           "Origin": 2
         },
         {
           "Name": null,
-          "Value": "! Acute L",
+          "Value": "! Tino S",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -1727,9 +1692,10 @@
         }
       ],
       "SpeakTags": [
-        "-> L4",
-        "brk",
-        "! Acute L"
+        "-> S4",
+        "SLg",
+        "rallenta",
+        "! Tino S"
       ],
       "Level": "4"
     },
@@ -1772,12 +1738,12 @@
       "Start": 2516,
       "StartMax": 2581,
       "DetectedHint": 6,
-      "DistanceBefore": -115,
+      "DistanceBefore": -127,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "Acute"
+      "Level": "Tino"
     },
     {
       "Prg": 24,
@@ -1818,33 +1784,16 @@
       "Start": 2581,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -70,
+      "DistanceBefore": -62,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> R3-",
-          "Category": 9,
+          "Value": "D3-",
+          "Category": 1,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "R3-",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
+          "Components": null,
           "Origin": 0
         },
         {
@@ -1857,7 +1806,7 @@
         },
         {
           "Name": "Long",
-          "Value": "Lg",
+          "Value": "L",
           "Category": 2,
           "IsPrefixed": false,
           "Components": null,
@@ -1865,9 +1814,9 @@
         }
       ],
       "SpeakTags": [
-        "-> R3-",
+        "D3-",
         "< 4+",
-        "Lg"
+        "L"
       ],
       "Level": "3-<4+"
     },
@@ -1910,38 +1859,21 @@
       "Start": 2712,
       "StartMax": -1,
       "DetectedHint": 2,
-      "DistanceBefore": -101,
+      "DistanceBefore": -98,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": null,
-          "Value": "-> cut",
-          "Category": 9,
+          "Name": "Cut",
+          "Value": "taglia",
+          "Category": 5,
           "IsPrefixed": true,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": "Cut",
-              "Value": "cut",
-              "Category": 5,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            }
-          ],
+          "Components": null,
           "Origin": 2
         },
         {
           "Name": null,
-          "Value": "Slight L",
+          "Value": "acc. S",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -1949,24 +1881,16 @@
         },
         {
           "Name": null,
-          "Value": "L3",
+          "Value": "S3",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         },
         {
-          "Name": "Keep",
-          "Value": "stay",
-          "Category": 5,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 0
-        },
-        {
-          "Name": "Outside",
-          "Value": "out",
-          "Category": 0,
+          "Name": null,
+          "Value": "stai est.",
+          "Category": 9,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
@@ -1981,7 +1905,7 @@
         },
         {
           "Name": null,
-          "Value": "Acute R",
+          "Value": "Tino D",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -1989,15 +1913,14 @@
         }
       ],
       "SpeakTags": [
-        "-> cut",
-        "Slight L",
-        "L3",
-        "stay",
-        "out",
+        "taglia",
+        "acc. S",
+        "S3",
+        "stai est.",
         "x !",
-        "Acute R"
+        "Tino D"
       ],
-      "Level": "Slight"
+      "Level": "acc."
     },
     {
       "Prg": 26,
@@ -2038,30 +1961,38 @@
       "Start": 2768,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -116,
+      "DistanceBefore": -128,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": "Keep",
-          "Value": "stay",
-          "Category": 5,
+          "Name": null,
+          "Value": "stai est.",
+          "Category": 9,
           "IsPrefixed": false,
-          "Components": null,
-          "Origin": 2
-        },
-        {
-          "Name": "Outside",
-          "Value": "out",
-          "Category": 0,
-          "IsPrefixed": false,
-          "Components": null,
+          "Components": [
+            {
+              "Name": "Keep",
+              "Value": "stai",
+              "Category": 5,
+              "IsPrefixed": false,
+              "Components": [],
+              "Origin": 2
+            },
+            {
+              "Name": "Outside",
+              "Value": "est.",
+              "Category": 0,
+              "IsPrefixed": false,
+              "Components": [],
+              "Origin": 2
+            }
+          ],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "stay",
-        "out"
+        "stai est."
       ],
       "Level": "3"
     },
@@ -2104,17 +2035,17 @@
       "Start": 2866,
       "StartMax": 2923,
       "DetectedHint": 5,
-      "DistanceBefore": -122,
+      "DistanceBefore": -131,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "Acute"
+      "Level": "Tino"
     },
     {
       "Prg": 28,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 4,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -2132,7 +2063,7 @@
       "Radius2": 0.0,
       "Angle1": 171.21533038258363,
       "Angle2": 0.0,
-      "Level1": "6",
+      "Level1": "6-",
       "Level2": null,
       "Slope": 4.39,
       "ComboLength": 156,
@@ -2150,38 +2081,21 @@
       "Start": 2923,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -44,
+      "DistanceBefore": -45,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> L6",
-          "Category": 9,
+          "Value": "S6-",
+          "Category": 1,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "L6",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
+          "Components": null,
           "Origin": 0
         },
         {
           "Name": null,
-          "Value": "x R3",
+          "Value": "x D3",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -2189,7 +2103,7 @@
         },
         {
           "Name": "Leave",
-          "Value": "leave",
+          "Value": "lascia",
           "Category": 5,
           "IsPrefixed": false,
           "Components": null,
@@ -2197,16 +2111,16 @@
         }
       ],
       "SpeakTags": [
-        "-> L6",
-        "x R3",
-        "leave"
+        "S6-",
+        "x D3",
+        "lascia"
       ],
-      "Level": "6"
+      "Level": "6-"
     },
     {
       "Prg": 29,
       "Enabled": false,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -2242,21 +2156,21 @@
       "Start": 2996,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -119,
+      "DistanceBefore": -126,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": "Leave",
-          "Value": "leave",
+          "Value": "lascia",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "leave"
+        "lascia"
       ],
       "Level": "3"
     },
@@ -2299,13 +2213,13 @@
       "Start": 3074,
       "StartMax": 3132,
       "DetectedHint": 4,
-      "DistanceBefore": -98,
+      "DistanceBefore": -109,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> L5",
+          "Value": "-> S5",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -2319,7 +2233,7 @@
             },
             {
               "Name": null,
-              "Value": "L5",
+              "Value": "S5",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -2329,33 +2243,24 @@
           "Origin": 0
         },
         {
-          "Name": null,
-          "Value": "stay R",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Keep",
-              "Value": "stay",
-              "Category": 5,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 2
-            },
-            {
-              "Name": "Right",
-              "Value": "R",
-              "Category": 0,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 2
-            }
-          ],
+          "Components": [],
+          "Origin": 2
+        },
+        {
+          "Name": "Right",
+          "Value": "D",
+          "Category": 0,
+          "IsPrefixed": false,
+          "Components": [],
           "Origin": 2
         },
         {
           "Name": null,
-          "Value": "imm Acute L",
+          "Value": "sbt. Tino S",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -2363,7 +2268,7 @@
         },
         {
           "Name": null,
-          "Value": "! nrrws",
+          "Value": "! stringe",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -2371,10 +2276,11 @@
         }
       ],
       "SpeakTags": [
-        "-> L5",
-        "stay R",
-        "imm Acute L",
-        "! nrrws"
+        "-> S5",
+        "tieni",
+        "D",
+        "sbt. Tino S",
+        "! stringe"
       ],
       "Level": "5"
     },
@@ -2399,7 +2305,7 @@
       "Radius2": 0.0,
       "Angle1": 172.0,
       "Angle2": 0.0,
-      "Level1": "6",
+      "Level1": "6-",
       "Level2": null,
       "Slope": 1.58,
       "ComboLength": 31,
@@ -2433,7 +2339,7 @@
       "SpeakTags": [
         ""
       ],
-      "Level": "6"
+      "Level": "6-"
     },
     {
       "Prg": 32,
@@ -2474,13 +2380,13 @@
       "Start": 3163,
       "StartMax": 3232,
       "DetectedHint": 6,
-      "DistanceBefore": -136,
+      "DistanceBefore": -155,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "! nrrws",
+          "Value": "! stringe",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -2489,15 +2395,15 @@
               "Value": "!",
               "Category": 4,
               "IsPrefixed": false,
-              "Components": null,
+              "Components": [],
               "Origin": 2
             },
             {
               "Name": "Narrows",
-              "Value": "nrrws",
+              "Value": "stringe",
               "Category": 6,
               "IsPrefixed": false,
-              "Components": null,
+              "Components": [],
               "Origin": 2
             }
           ],
@@ -2505,14 +2411,14 @@
         }
       ],
       "SpeakTags": [
-        "! nrrws"
+        "! stringe"
       ],
-      "Level": "Acute"
+      "Level": "Tino"
     },
     {
       "Prg": 33,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -2530,7 +2436,7 @@
       "Radius2": 0.0,
       "Angle1": 144.93394189072868,
       "Angle2": 0.0,
-      "Level1": "4",
+      "Level1": "4-",
       "Level2": null,
       "Slope": 5.7,
       "ComboLength": 203,
@@ -2548,33 +2454,16 @@
       "Start": 3232,
       "StartMax": 3321,
       "DetectedHint": 3,
-      "DistanceBefore": -43,
+      "DistanceBefore": -46,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> R4",
-          "Category": 9,
+          "Value": "D4-",
+          "Category": 1,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "R4",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
+          "Components": null,
           "Origin": 0
         },
         {
@@ -2587,15 +2476,23 @@
         },
         {
           "Name": null,
-          "Value": "L5 < 6",
-          "Category": 9,
+          "Value": "S5-",
+          "Category": 1,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": null,
+          "Value": "< 6",
+          "Category": 3,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         },
         {
           "Name": "Flat",
-          "Value": "Flat",
+          "Value": "piena",
           "Category": 2,
           "IsPrefixed": false,
           "Components": null,
@@ -2603,17 +2500,18 @@
         }
       ],
       "SpeakTags": [
-        "-> R4",
+        "D4-",
         "&",
-        "L5 < 6",
-        "Flat"
+        "S5-",
+        "< 6",
+        "piena"
       ],
-      "Level": "4"
+      "Level": "4-"
     },
     {
       "Prg": 34,
       "Enabled": false,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 4,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -2631,7 +2529,7 @@
       "Radius2": 0.0,
       "Angle1": 158.0,
       "Angle2": 178.0,
-      "Level1": "5",
+      "Level1": "5-",
       "Level2": "6",
       "Slope": 5.14,
       "ComboLength": 114,
@@ -2649,23 +2547,23 @@
       "Start": 3321,
       "StartMax": 3436,
       "DetectedHint": 4,
-      "DistanceBefore": -146,
+      "DistanceBefore": -161,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": "Flat",
-          "Value": "Flat",
+          "Value": "piena",
           "Category": 2,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "Flat"
+        "piena"
       ],
-      "Level": "5<6"
+      "Level": "5-<6"
     },
     {
       "Prg": 35,
@@ -2706,13 +2604,13 @@
       "Start": 3436,
       "StartMax": 3540,
       "DetectedHint": 3,
-      "DistanceBefore": -139,
+      "DistanceBefore": -145,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> R5+",
+          "Value": "-> D5+",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -2726,7 +2624,7 @@
             },
             {
               "Name": null,
-              "Value": "R5+",
+              "Value": "D5+",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -2745,17 +2643,17 @@
         },
         {
           "Name": "Go",
-          "Value": "go",
+          "Value": "vai",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "-> R5+",
+        "-> D5+",
         "> 4",
-        "go"
+        "vai"
       ],
       "Level": "5+>4"
     },
@@ -2798,7 +2696,7 @@
       "Start": 3540,
       "StartMax": 3620,
       "DetectedHint": null,
-      "DistanceBefore": -87,
+      "DistanceBefore": -96,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -2812,16 +2710,24 @@
         },
         {
           "Name": null,
-          "Value": "R5",
+          "Value": "D5",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         },
         {
-          "Name": null,
-          "Value": "stay L",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Left",
+          "Value": "S",
+          "Category": 0,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
@@ -2836,7 +2742,7 @@
         },
         {
           "Name": null,
-          "Value": "Acute R",
+          "Value": "Tino D",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -2845,17 +2751,18 @@
       ],
       "SpeakTags": [
         "70",
-        "R5",
-        "stay L",
+        "D5",
+        "tieni",
+        "S",
         "x !",
-        "Acute R"
+        "Tino D"
       ],
       "Level": "70"
     },
     {
       "Prg": 37,
       "Enabled": false,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -2891,38 +2798,30 @@
       "Start": 3620,
       "StartMax": 3667,
       "DetectedHint": 3,
-      "DistanceBefore": -140,
+      "DistanceBefore": -162,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": null,
-          "Value": "stay L",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Keep",
-              "Value": "stay",
-              "Category": 5,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 2
-            },
-            {
-              "Name": "Left",
-              "Value": "L",
-              "Category": 0,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 2
-            }
-          ],
+          "Components": [],
+          "Origin": 2
+        },
+        {
+          "Name": "Left",
+          "Value": "S",
+          "Category": 0,
+          "IsPrefixed": false,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "stay L"
+        "tieni",
+        "S"
       ],
       "Level": "5"
     },
@@ -2965,17 +2864,17 @@
       "Start": 3688,
       "StartMax": 3746,
       "DetectedHint": 5,
-      "DistanceBefore": -129,
+      "DistanceBefore": -138,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "Acute"
+      "Level": "Tino"
     },
     {
       "Prg": 39,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 4,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -3011,13 +2910,13 @@
       "Start": 3746,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -48,
+      "DistanceBefore": -46,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> L3",
+          "Value": "-> S3",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -3031,7 +2930,7 @@
             },
             {
               "Name": null,
-              "Value": "L3",
+              "Value": "S3",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -3042,14 +2941,14 @@
         }
       ],
       "SpeakTags": [
-        "-> L3"
+        "-> S3"
       ],
       "Level": "3"
     },
     {
       "Prg": 40,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 4,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -3067,7 +2966,7 @@
       "Radius2": 0.0,
       "Angle1": 172.0,
       "Angle2": 0.0,
-      "Level1": "6",
+      "Level1": "6-",
       "Level2": null,
       "Slope": 5.59,
       "ComboLength": 127,
@@ -3085,41 +2984,50 @@
       "Start": 3848,
       "StartMax": 3890,
       "DetectedHint": 4,
-      "DistanceBefore": -102,
+      "DistanceBefore": -97,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "L6",
+          "Value": "S6 piena",
           "Category": 9,
           "IsPrefixed": true,
           "Components": [
             {
-              "Name": "Left",
-              "Value": "L",
-              "Category": 0,
+              "Name": null,
+              "Value": "S6",
+              "Category": 9,
               "IsPrefixed": true,
-              "Components": null,
+              "Components": [
+                {
+                  "Name": "Left",
+                  "Value": "S",
+                  "Category": 0,
+                  "IsPrefixed": true,
+                  "Components": [],
+                  "Origin": 2
+                },
+                {
+                  "Name": null,
+                  "Value": "6",
+                  "Category": -1,
+                  "IsPrefixed": true,
+                  "Components": null,
+                  "Origin": 2
+                }
+              ],
               "Origin": 2
             },
             {
-              "Name": null,
-              "Value": "6",
-              "Category": -1,
+              "Name": "Flat",
+              "Value": "piena",
+              "Category": 2,
               "IsPrefixed": true,
-              "Components": null,
+              "Components": [],
               "Origin": 2
             }
           ],
-          "Origin": 2
-        },
-        {
-          "Name": "Flat",
-          "Value": "Flat",
-          "Category": 2,
-          "IsPrefixed": true,
-          "Components": null,
           "Origin": 2
         },
         {
@@ -3132,11 +3040,10 @@
         }
       ],
       "SpeakTags": [
-        "L6",
-        "Flat",
+        "S6 piena",
         "100"
       ],
-      "Level": "6"
+      "Level": "6-"
     },
     {
       "Prg": 41,
@@ -3177,7 +3084,7 @@
       "Start": 3890,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -98,
+      "DistanceBefore": -91,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -3187,7 +3094,7 @@
     {
       "Prg": 42,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -3223,13 +3130,13 @@
       "Start": 3975,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -125,
+      "DistanceBefore": -130,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "R5",
+          "Value": "D5",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -3237,23 +3144,23 @@
         },
         {
           "Name": null,
-          "Value": "-> L5",
-          "Category": 9,
+          "Value": "S5",
+          "Category": 1,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         }
       ],
       "SpeakTags": [
-        "R5",
-        "-> L5"
+        "D5",
+        "S5"
       ],
       "Level": "5"
     },
     {
       "Prg": 43,
       "Enabled": false,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 4,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -3335,13 +3242,13 @@
       "Start": 4116,
       "StartMax": 4257,
       "DetectedHint": 4,
-      "DistanceBefore": -161,
+      "DistanceBefore": -178,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "x brk",
+          "Value": "x rallenta",
           "Category": 9,
           "IsPrefixed": true,
           "Components": [
@@ -3355,7 +3262,7 @@
             },
             {
               "Name": "Slowdown",
-              "Value": "brk",
+              "Value": "rallenta",
               "Category": 5,
               "IsPrefixed": true,
               "Components": null,
@@ -3366,13 +3273,13 @@
         },
         {
           "Name": null,
-          "Value": "L4 < 6",
+          "Value": "S4 < 6",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
             {
               "Name": null,
-              "Value": "L4",
+              "Value": "S4",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -3391,7 +3298,7 @@
         },
         {
           "Name": "Long",
-          "Value": "Lg",
+          "Value": "L",
           "Category": 2,
           "IsPrefixed": false,
           "Components": null,
@@ -3399,9 +3306,9 @@
         }
       ],
       "SpeakTags": [
-        "x brk",
-        "L4 < 6",
-        "Lg"
+        "x rallenta",
+        "S4 < 6",
+        "L"
       ],
       "Level": "4<6"
     },
@@ -3444,7 +3351,7 @@
       "Start": 4257,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -90,
+      "DistanceBefore": -98,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -3457,16 +3364,24 @@
           "Origin": 0
         },
         {
-          "Name": null,
-          "Value": "stay R",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Right",
+          "Value": "D",
+          "Category": 0,
           "IsPrefixed": true,
           "Components": null,
           "Origin": 0
         },
         {
           "Name": null,
-          "Value": "imm HP L",
+          "Value": "sbt. Tor S",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -3475,15 +3390,16 @@
       ],
       "SpeakTags": [
         "70",
-        "stay R",
-        "imm HP L"
+        "tieni",
+        "D",
+        "sbt. Tor S"
       ],
       "Level": "70"
     },
     {
       "Prg": 46,
       "Enabled": false,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -3519,38 +3435,30 @@
       "Start": 4331,
       "StartMax": 4388,
       "DetectedHint": 3,
-      "DistanceBefore": -116,
+      "DistanceBefore": -132,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": null,
-          "Value": "stay R",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
           "IsPrefixed": true,
-          "Components": [
-            {
-              "Name": "Keep",
-              "Value": "stay",
-              "Category": 5,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            },
-            {
-              "Name": "Right",
-              "Value": "R",
-              "Category": 0,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            }
-          ],
+          "Components": [],
+          "Origin": 2
+        },
+        {
+          "Name": "Right",
+          "Value": "D",
+          "Category": 0,
+          "IsPrefixed": true,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "stay R"
+        "tieni",
+        "D"
       ],
       "Level": "5"
     },
@@ -3593,12 +3501,12 @@
       "Start": 4388,
       "StartMax": 4443,
       "DetectedHint": 6,
-      "DistanceBefore": -110,
+      "DistanceBefore": -114,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "HP"
+      "Level": "Tor"
     },
     {
       "Prg": 48,
@@ -3639,41 +3547,24 @@
       "Start": 4443,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -44,
+      "DistanceBefore": -45,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> R5",
-          "Category": 9,
+          "Value": "D5",
+          "Category": 1,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "R5",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
+          "Components": null,
           "Origin": 0
         },
         {
           "Name": "Cut",
-          "Value": "cut",
+          "Value": "taglia",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         },
         {
@@ -3686,8 +3577,8 @@
         }
       ],
       "SpeakTags": [
-        "-> R5",
-        "cut",
+        "D5",
+        "taglia",
         "70"
       ],
       "Level": "5"
@@ -3731,7 +3622,7 @@
       "Start": 4479,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -88,
+      "DistanceBefore": -97,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -3777,33 +3668,24 @@
       "Start": 4553,
       "StartMax": 4642,
       "DetectedHint": 3,
-      "DistanceBefore": -113,
+      "DistanceBefore": -130,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": null,
-          "Value": "stay L",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
           "IsPrefixed": true,
-          "Components": [
-            {
-              "Name": "Keep",
-              "Value": "stay",
-              "Category": 5,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            },
-            {
-              "Name": "Left",
-              "Value": "L",
-              "Category": 0,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            }
-          ],
+          "Components": [],
+          "Origin": 2
+        },
+        {
+          "Name": "Left",
+          "Value": "S",
+          "Category": 0,
+          "IsPrefixed": true,
+          "Components": [],
           "Origin": 2
         },
         {
@@ -3816,7 +3698,7 @@
         },
         {
           "Name": null,
-          "Value": "Acute R",
+          "Value": "Tino D",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -3824,9 +3706,10 @@
         }
       ],
       "SpeakTags": [
-        "stay L",
+        "tieni",
+        "S",
         "-> !",
-        "Acute R"
+        "Tino D"
       ],
       "Level": "5+"
     },
@@ -3869,12 +3752,12 @@
       "Start": 4642,
       "StartMax": 4701,
       "DetectedHint": 5,
-      "DistanceBefore": -131,
+      "DistanceBefore": -140,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "Acute"
+      "Level": "Tino"
     },
     {
       "Prg": 52,
@@ -3915,41 +3798,24 @@
       "Start": 4701,
       "StartMax": 4768,
       "DetectedHint": 4,
-      "DistanceBefore": -56,
+      "DistanceBefore": -52,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> L3-",
-          "Category": 9,
+          "Value": "S3-",
+          "Category": 1,
           "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "L3-",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
+          "Components": null,
           "Origin": 0
         },
         {
           "Name": "Round",
-          "Value": "round",
+          "Value": "tonda",
           "Category": 2,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         },
         {
@@ -3962,8 +3828,8 @@
         }
       ],
       "SpeakTags": [
-        "-> L3-",
-        "round",
+        "S3-",
+        "tonda",
         "170"
       ],
       "Level": "3-"
@@ -4007,7 +3873,7 @@
       "Start": 4768,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -75,
+      "DistanceBefore": -77,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -4053,13 +3919,13 @@
       "Start": 4936,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -147,
+      "DistanceBefore": -164,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "R4",
+          "Value": "D4",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -4067,23 +3933,23 @@
         },
         {
           "Name": "Leave",
-          "Value": "leave",
+          "Value": "lascia",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         },
         {
           "Name": null,
-          "Value": "-> L5",
-          "Category": 9,
+          "Value": "S5",
+          "Category": 1,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         },
         {
           "Name": "Cut",
-          "Value": "cut",
+          "Value": "taglia",
           "Category": 5,
           "IsPrefixed": false,
           "Components": null,
@@ -4091,7 +3957,7 @@
         },
         {
           "Name": null,
-          "Value": "-> R3",
+          "Value": "-> D3",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -4107,7 +3973,7 @@
         },
         {
           "Name": null,
-          "Value": "rox out",
+          "Value": "Roccia est.",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -4115,13 +3981,13 @@
         }
       ],
       "SpeakTags": [
-        "R4",
-        "leave",
-        "-> L5",
-        "cut",
-        "-> R3",
+        "D4",
+        "lascia",
+        "S5",
+        "taglia",
+        "-> D3",
         "!",
-        "rox out"
+        "Roccia est."
       ],
       "Level": "4"
     },
@@ -4164,21 +4030,21 @@
       "Start": 4999,
       "StartMax": 5051,
       "DetectedHint": 4,
-      "DistanceBefore": -100,
+      "DistanceBefore": -104,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": "Cut",
-          "Value": "cut",
+          "Value": "taglia",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "cut"
+        "taglia"
       ],
       "Level": "5"
     },
@@ -4221,7 +4087,7 @@
       "Start": 5051,
       "StartMax": 5113,
       "DetectedHint": 3,
-      "DistanceBefore": -137,
+      "DistanceBefore": -151,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4230,29 +4096,29 @@
           "Value": "!",
           "Category": 4,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         },
         {
           "Name": null,
-          "Value": "rox out",
+          "Value": "Roccia est.",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
             {
               "Name": "Rock",
-              "Value": "rox",
+              "Value": "Roccia",
               "Category": 6,
               "IsPrefixed": false,
-              "Components": null,
+              "Components": [],
               "Origin": 2
             },
             {
               "Name": "Outside",
-              "Value": "out",
+              "Value": "est.",
               "Category": 0,
               "IsPrefixed": false,
-              "Components": null,
+              "Components": [],
               "Origin": 2
             }
           ],
@@ -4261,7 +4127,7 @@
       ],
       "SpeakTags": [
         "!",
-        "rox out"
+        "Roccia est."
       ],
       "Level": "3"
     },
@@ -4304,13 +4170,13 @@
       "Start": 5113,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -86,
+      "DistanceBefore": -93,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> L4",
+          "Value": "-> S4",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -4324,7 +4190,7 @@
             },
             {
               "Name": null,
-              "Value": "L4",
+              "Value": "S4",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -4334,9 +4200,17 @@
           "Origin": 0
         },
         {
-          "Name": null,
-          "Value": "stay R",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Right",
+          "Value": "D",
+          "Category": 0,
           "IsPrefixed": true,
           "Components": null,
           "Origin": 0
@@ -4351,7 +4225,7 @@
         },
         {
           "Name": null,
-          "Value": "OpnHP L",
+          "Value": "Tone S",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -4359,10 +4233,11 @@
         }
       ],
       "SpeakTags": [
-        "-> L4",
-        "stay R",
+        "-> S4",
+        "tieni",
+        "D",
         "!",
-        "OpnHP L"
+        "Tone S"
       ],
       "Level": "4"
     },
@@ -4405,40 +4280,32 @@
       "Start": 5202,
       "StartMax": 5249,
       "DetectedHint": 1,
-      "DistanceBefore": -94,
+      "DistanceBefore": -107,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
-          "Name": null,
-          "Value": "stay R",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
           "IsPrefixed": true,
-          "Components": [
-            {
-              "Name": "Keep",
-              "Value": "stay",
-              "Category": 5,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            },
-            {
-              "Name": "Right",
-              "Value": "R",
-              "Category": 0,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            }
-          ],
+          "Components": [],
+          "Origin": 2
+        },
+        {
+          "Name": "Right",
+          "Value": "D",
+          "Category": 0,
+          "IsPrefixed": true,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "stay R"
+        "tieni",
+        "D"
       ],
-      "Level": "Slight"
+      "Level": "acc."
     },
     {
       "Prg": 59,
@@ -4479,17 +4346,17 @@
       "Start": 5249,
       "StartMax": 5304,
       "DetectedHint": 6,
-      "DistanceBefore": -137,
+      "DistanceBefore": -145,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
       "SpeakTags": [],
-      "Level": "OpnHP"
+      "Level": "Tone"
     },
     {
       "Prg": 60,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -4507,7 +4374,7 @@
       "Radius2": 0.0,
       "Angle1": 141.10946657652275,
       "Angle2": 0.0,
-      "Level1": "3",
+      "Level1": "3+",
       "Level2": null,
       "Slope": 3.07,
       "ComboLength": 149,
@@ -4525,54 +4392,45 @@
       "Start": 5304,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -48,
+      "DistanceBefore": -61,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> R3",
-          "Category": 9,
-          "IsPrefixed": false,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "->",
-              "Category": 3,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            },
-            {
-              "Name": null,
-              "Value": "R3",
-              "Category": 1,
-              "IsPrefixed": false,
-              "Components": null,
-              "Origin": 0
-            }
-          ],
-          "Origin": 0
-        },
-        {
-          "Name": "Cut",
-          "Value": "cut",
-          "Category": 5,
-          "IsPrefixed": false,
-          "Components": null,
-          "Origin": 2
-        },
-        {
-          "Name": null,
-          "Value": "L4",
+          "Value": "D3+",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         },
         {
+          "Name": "HalfLong",
+          "Value": "SLg",
+          "Category": 2,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Cut",
+          "Value": "taglia",
+          "Category": 5,
+          "IsPrefixed": false,
+          "Components": [],
+          "Origin": 2
+        },
+        {
+          "Name": null,
+          "Value": "-> S4",
+          "Category": 9,
+          "IsPrefixed": false,
+          "Components": null,
+          "Origin": 0
+        },
+        {
           "Name": "Leave",
-          "Value": "leave",
+          "Value": "lascia",
           "Category": 5,
           "IsPrefixed": false,
           "Components": null,
@@ -4580,17 +4438,18 @@
         }
       ],
       "SpeakTags": [
-        "-> R3",
-        "cut",
-        "L4",
-        "leave"
+        "D3+",
+        "SLg",
+        "taglia",
+        "-> S4",
+        "lascia"
       ],
-      "Level": "3"
+      "Level": "3+"
     },
     {
       "Prg": 61,
       "Enabled": false,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 4,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -4626,21 +4485,21 @@
       "Start": 5381,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -97,
+      "DistanceBefore": -107,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": "Leave",
-          "Value": "leave",
+          "Value": "lascia",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "leave"
+        "lascia"
       ],
       "Level": "4"
     },
@@ -4683,13 +4542,13 @@
       "Start": 5464,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -101,
+      "DistanceBefore": -114,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> R5",
+          "Value": "-> D5",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -4703,7 +4562,7 @@
             },
             {
               "Name": null,
-              "Value": "R5",
+              "Value": "D5",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -4714,10 +4573,10 @@
         },
         {
           "Name": "Go",
-          "Value": "go",
+          "Value": "vai",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         },
         {
@@ -4730,8 +4589,8 @@
         }
       ],
       "SpeakTags": [
-        "-> R5",
-        "go",
+        "-> D5",
+        "vai",
         "100"
       ],
       "Level": "5"
@@ -4775,7 +4634,7 @@
       "Start": 5516,
       "StartMax": -1,
       "DetectedHint": null,
-      "DistanceBefore": -94,
+      "DistanceBefore": -87,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [],
@@ -4803,7 +4662,7 @@
       "Radius2": 0.0,
       "Angle1": 168.8342420967069,
       "Angle2": 0.0,
-      "Level1": "5",
+      "Level1": "5+",
       "Level2": null,
       "Slope": 4.81,
       "ComboLength": 204,
@@ -4821,13 +4680,13 @@
       "Start": 5622,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -126,
+      "DistanceBefore": -135,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "L5",
+          "Value": "S5+",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -4835,15 +4694,15 @@
         },
         {
           "Name": null,
-          "Value": "-> R3",
-          "Category": 9,
+          "Value": "D3",
+          "Category": 1,
           "IsPrefixed": false,
           "Components": null,
           "Origin": 0
         },
         {
           "Name": "Slowdown",
-          "Value": "brk",
+          "Value": "rallenta",
           "Category": 5,
           "IsPrefixed": false,
           "Components": null,
@@ -4851,7 +4710,7 @@
         },
         {
           "Name": null,
-          "Value": "-> L4",
+          "Value": "-> S4+",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -4867,13 +4726,13 @@
         }
       ],
       "SpeakTags": [
-        "L5",
-        "-> R3",
-        "brk",
-        "-> L4",
+        "S5+",
+        "D3",
+        "rallenta",
+        "-> S4+",
         "molla"
       ],
-      "Level": "5"
+      "Level": "5+"
     },
     {
       "Prg": 65,
@@ -4914,21 +4773,21 @@
       "Start": 5658,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -111,
+      "DistanceBefore": -114,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": "Slowdown",
-          "Value": "brk",
+          "Value": "rallenta",
           "Category": 5,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "brk"
+        "rallenta"
       ],
       "Level": "3"
     },
@@ -4953,7 +4812,7 @@
       "Radius2": 0.0,
       "Angle1": 155.464440124095,
       "Angle2": 0.0,
-      "Level1": "4",
+      "Level1": "4+",
       "Level2": null,
       "Slope": 3.06,
       "ComboLength": 52,
@@ -4971,7 +4830,7 @@
       "Start": 5714,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -80,
+      "DistanceBefore": -102,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -4987,7 +4846,7 @@
       "SpeakTags": [
         "molla"
       ],
-      "Level": "4"
+      "Level": "4+"
     },
     {
       "Prg": 67,
@@ -5028,7 +4887,7 @@
       "Start": 5776,
       "StartMax": -1,
       "DetectedHint": 6,
-      "DistanceBefore": -119,
+      "DistanceBefore": -128,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5059,7 +4918,7 @@
         },
         {
           "Name": null,
-          "Value": "HP L",
+          "Value": "Tor S",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -5068,14 +4927,14 @@
       ],
       "SpeakTags": [
         "-> !",
-        "HP L"
+        "Tor S"
       ],
-      "Level": "HP"
+      "Level": "Tor"
     },
     {
       "Prg": 68,
       "Enabled": true,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 3,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -5093,7 +4952,7 @@
       "Radius2": 0.0,
       "Angle1": 155.72565445793461,
       "Angle2": 0.0,
-      "Level1": "4",
+      "Level1": "4+",
       "Level2": null,
       "Slope": 5.66,
       "ComboLength": 145,
@@ -5111,13 +4970,13 @@
       "Start": 5841,
       "StartMax": -1,
       "DetectedHint": 3,
-      "DistanceBefore": -45,
+      "DistanceBefore": -49,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "-> R4",
+          "Value": "-> D4+",
           "Category": 9,
           "IsPrefixed": false,
           "Components": [
@@ -5131,7 +4990,7 @@
             },
             {
               "Name": null,
-              "Value": "R4",
+              "Value": "D4+",
               "Category": 1,
               "IsPrefixed": false,
               "Components": null,
@@ -5142,7 +5001,7 @@
         },
         {
           "Name": null,
-          "Value": "x L3",
+          "Value": "x S3+",
           "Category": 9,
           "IsPrefixed": false,
           "Components": null,
@@ -5150,7 +5009,7 @@
         },
         {
           "Name": "Fast",
-          "Value": "fast",
+          "Value": "veloce",
           "Category": 2,
           "IsPrefixed": false,
           "Components": null,
@@ -5158,16 +5017,16 @@
         }
       ],
       "SpeakTags": [
-        "-> R4",
-        "x L3",
-        "fast"
+        "-> D4+",
+        "x S3+",
+        "veloce"
       ],
-      "Level": "4"
+      "Level": "4+"
     },
     {
       "Prg": 69,
       "Enabled": false,
-      "SimplifyNotation": true,
+      "SimplifyNotation": false,
       "Hint": 4,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -5185,7 +5044,7 @@
       "Radius2": 0.0,
       "Angle1": 137.77446330548733,
       "Angle2": 0.0,
-      "Level1": "3",
+      "Level1": "3+",
       "Level2": null,
       "Slope": 6.01,
       "ComboLength": 56,
@@ -5203,23 +5062,23 @@
       "Start": 5930,
       "StartMax": -1,
       "DetectedHint": 4,
-      "DistanceBefore": -122,
+      "DistanceBefore": -128,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": "Fast",
-          "Value": "fast",
+          "Value": "veloce",
           "Category": 2,
           "IsPrefixed": false,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
-        "fast"
+        "veloce"
       ],
-      "Level": "3"
+      "Level": "3+"
     },
     {
       "Prg": 70,
@@ -5281,16 +5140,24 @@
           "Origin": 0
         },
         {
-          "Name": null,
-          "Value": "stay L",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
+          "IsPrefixed": true,
+          "Components": null,
+          "Origin": 0
+        },
+        {
+          "Name": "Left",
+          "Value": "S",
+          "Category": 0,
           "IsPrefixed": true,
           "Components": null,
           "Origin": 0
         },
         {
           "Name": null,
-          "Value": "HP R",
+          "Value": "Tor D",
           "Category": 1,
           "IsPrefixed": false,
           "Components": null,
@@ -5300,8 +5167,9 @@
       "SpeakTags": [
         "",
         "x",
-        "stay L",
-        "HP R"
+        "tieni",
+        "S",
+        "Tor D"
       ],
       "Level": "70"
     },
@@ -5344,7 +5212,7 @@
       "Start": 6066,
       "StartMax": -1,
       "DetectedHint": 5,
-      "DistanceBefore": -147,
+      "DistanceBefore": -172,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
@@ -5353,40 +5221,32 @@
           "Value": "x",
           "Category": 3,
           "IsPrefixed": true,
-          "Components": null,
+          "Components": [],
           "Origin": 2
         },
         {
-          "Name": null,
-          "Value": "stay L",
-          "Category": 9,
+          "Name": "Stay",
+          "Value": "tieni",
+          "Category": 5,
           "IsPrefixed": true,
-          "Components": [
-            {
-              "Name": "Keep",
-              "Value": "stay",
-              "Category": 5,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            },
-            {
-              "Name": "Left",
-              "Value": "L",
-              "Category": 0,
-              "IsPrefixed": true,
-              "Components": null,
-              "Origin": 2
-            }
-          ],
+          "Components": [],
+          "Origin": 2
+        },
+        {
+          "Name": "Left",
+          "Value": "S",
+          "Category": 0,
+          "IsPrefixed": true,
+          "Components": [],
           "Origin": 2
         }
       ],
       "SpeakTags": [
         "x",
-        "stay L"
+        "tieni",
+        "S"
       ],
-      "Level": "HP"
+      "Level": "Tor"
     },
     {
       "Prg": 72,
@@ -5423,30 +5283,30 @@
       "Start": 6126,
       "StartMax": 6407,
       "DetectedHint": null,
-      "DistanceBefore": -26,
+      "DistanceBefore": -27,
       "CallPointOffset": 0.0,
       "Text": "",
       "TagList": [
         {
           "Name": null,
-          "Value": "to finish",
+          "Value": "al traguardo",
           "Category": 9,
           "IsPrefixed": true,
           "Components": [
             {
               "Name": "To",
-              "Value": "to",
+              "Value": "al",
               "Category": 7,
               "IsPrefixed": true,
-              "Components": null,
+              "Components": [],
               "Origin": 2
             },
             {
               "Name": "Finish",
-              "Value": "finish",
+              "Value": "traguardo",
               "Category": 6,
               "IsPrefixed": true,
-              "Components": null,
+              "Components": [],
               "Origin": 2
             }
           ],
@@ -5454,9 +5314,9 @@
         }
       ],
       "SpeakTags": [
-        "to finish"
+        "al traguardo"
       ],
-      "Level": "kinks"
+      "Level": "a.vista"
     },
     {
       "Prg": 73,
