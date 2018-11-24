@@ -1,0 +1,6 @@
+[submodule "Richard-Collomb"]
+	path = Richard-Collomb
+	url = https://github.com/TGDSimware/Richard-Collomb
+[submodule "Jaco-Casteil"]
+	path = Jaco-Casteil
+	url = https://github.com/TGDSimware/Jaco-Casteil
