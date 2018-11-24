@@ -13,3 +13,9 @@
 [submodule "French/Co-Drivers/Richard-Collomb"]
 	path = French/Co-Drivers/Richard-Collomb
 	url = https://github.com/TGDSimware/Richard-Collomb.git
+[submodule ".development/French/Co-Drivers/Richard-Collomb"]
+	path = .development/French/Co-Drivers/Richard-Collomb
+	url = https://github.com/TGDSimware/Richard-Collomb.git
+[submodule "development/French/Co-Drivers/Richard-Collomb"]
+	path = development/French/Co-Drivers/Richard-Collomb
+	url = https://github.com/TGDSimware/Richard-Collomb.git
