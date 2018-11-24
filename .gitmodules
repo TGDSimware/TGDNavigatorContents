@@ -10,3 +10,6 @@
 [submodule "Spanish"]
 	path = Spanish
 	url = https://github.com/TGDSimware/Spanish
+[submodule "French/Co-Drivers/Richard-Collomb"]
+	path = French/Co-Drivers/Richard-Collomb
+	url = https://github.com/TGDSimware/Richard-Collomb.git
